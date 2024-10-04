@@ -1,6 +1,4 @@
-# DALI-PyMOL Automator
-
-<!-- Replace with your logo if available -->
+# D2P2F : DALI to PyMol to FoldManson script
 
 ## Table of Contents
 
@@ -12,11 +10,7 @@
   - [Setting Up the Anaconda Environment](#setting-up-the-anaconda-environment)
 - [Usage](#usage)
   - [Configuring the Script](#configuring-the-script)
-  - [Running the Processor](#running-the-processor)
-- [Project Structure](#project-structure)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Running it](#running-it)
 - [Contact](#contact)
 
 ## Introduction
@@ -25,9 +19,9 @@ D2P2F is an automated tool designed to streamline the processing of DALI result 
 
 ## Features
 
-- **Automated Extraction**: Parses DALI result files to identify unique PDB IDs and their corresponding chains.
+- **Automated Extraction**: Parses DALI result files to identify unique PDB ID hits and their corresponding chains (selects one if multiple chain in PDB is hit).
 - **PyMOL Integration**: Utilizes PyMOL to fetch PDB structures directly from the Protein Data Bank.
-- **Chain Extraction**: Removes all chains except the specified one, allowing focused analysis on regions of interest.
+- **Chain Extraction**: Removes all chains except chain extracted from the first ste[].
 - **File Management**: Saves extracted chains as separate PDB files and manages CIF files by copying them to a dedicated directory and deleting originals to save space.
 - **Comprehensive Logging**: Maintains detailed logs of all operations for easy monitoring and troubleshooting.
 
@@ -75,7 +69,7 @@ Before running the automator, you need to configure the script to point to your 
 
 1. **Locate the Script**
 
-    Open the `download.py` script in your preferred text editor.
+    Copy the `download.py` script to a directory containing the DALI results text file
 
 2. **Modify the DALI Result File Path**
 
@@ -85,12 +79,12 @@ Before running the automator, you need to configure the script to point to your 
     dali_result_path = '8a1dA.txt'  # Path to your DALI result file
     ```
 
-    Replace `'8a1dA.txt'` with the path to your own DALI result text file.
+    Replace `'8a1dA.txt'` with the path to your own DALI results text file.
 
     Example:
 
     ```python
-    dali_result_path = 'my_dali_results.txt'  # DALI result file in that folder
+    dali_result_path = 'MY_DALI_RESULTS.txt'  # DALI result file in that folder
     ```
 
 ### Running the Processor
@@ -100,7 +94,7 @@ Before running the automator, you need to configure the script to point to your 
     Make sure the Anaconda environment is activated.
 
     ```bash
-    conda activate dali-pymol-env
+    conda activate P2D2F
     ```
 
 2. **Execute the Script**
