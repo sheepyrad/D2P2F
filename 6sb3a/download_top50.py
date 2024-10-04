@@ -158,8 +158,8 @@ def copy_cif_files(destination_directory, pdb_ids):
 # Step 5: Main Workflow
 def main():
     dali_result_path = '6sb3A.txt'  # Path to your DALI result file (remember to change the file when using this script)
-    output_directory = 'processed_pdbs'  # Directory to save the processed PDB files
-    downloaded_pdbs_directory = 'downloaded_pdbs'  # Directory to save the downloaded CIF files
+    output_directory = 'processed_pdbs_top50'  # Directory to save the processed PDB files
+    downloaded_pdbs_directory = 'downloaded_pdbs_top50'  # Directory to save the downloaded CIF files
     source_cif_directory = '.'  # Directory where original CIF files are located (root directory)
     
     # Step 1: Extract unique PDB IDs and chains (limit to 50)
@@ -181,7 +181,7 @@ def main():
     # Finalize PyMOL
     try:
         quit_command = f"quit"
-        pm(quit_command) 
+        pm(quit_command)
         logging.info("PyMOL session terminated successfully.")
     except AttributeError:
         logging.error("Error terminating PyMOL session: 'pymolPy3' object has no attribute 'quit'")
