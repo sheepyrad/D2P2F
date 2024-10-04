@@ -15,7 +15,10 @@
 
 ## Introduction
 
-D2P2F is an automated tool designed to streamline the processing of DALI result files to PDBs that could be uploaded to FoldManson to create structual phylogeny trees. It extracts unique Protein Data Bank (PDB) IDs and their corresponding chains, fetches the associated structures using PyMOL, and organizes the data into one folder. Users can then upload the PDBs to FoldManson to build the strutual phylogeny tree.
+D2P2F is an semi-automated script designed to streamline the processing of DALI result files to PDBs that could be uploaded to FoldManson to create structual phylogeny trees. It extracts unique Protein Data Bank (PDB) IDs and their corresponding chains, fetches the associated structures using PyMOL, and organizes the data into one folder. Users can then upload the PDBs to FoldManson to build the strutual phylogeny tree.
+
+To use DALI: http://ekhidna2.biocenter.helsinki.fi/dali/
+To use FoldManson: https://search.foldseek.com/foldmason
 
 ## Features
 
@@ -99,7 +102,7 @@ Before running the automator, you need to configure the script to point to your 
 
 2. **Execute the Script**
 
-    Run the `download.py` script.
+    Run the `download.py` script (in the directory where your processed DALI results txt is located!).
 
     ```bash
     python download.py
