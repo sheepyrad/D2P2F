@@ -177,7 +177,7 @@ def main():
     # Finalize PyMOL
     try:
         quit_command = f"quit"
-        pm(quit_command)  # Note: 'quit' method may not exist in pymolPy3
+        pm(quit_command)
         logging.info("PyMOL session terminated successfully.")
     except AttributeError:
         logging.error("Error terminating PyMOL session: 'pymolPy3' object has no attribute 'quit'")

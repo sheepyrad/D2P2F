@@ -15,13 +15,15 @@ logging.basicConfig(
     ]
 )
 
-# Step 1: Extract Unique PDB IDs and Chains from the DALI result file
-def extract_unique_pdb_ids_and_chains(file_path):
+# Step 1: Extract Unique PDB IDs and Chains from the DALI result file (limited to top 50)
+def extract_unique_pdb_ids_and_chains(file_path, limit=50):
     """
-    Parses the DALI result file to extract unique PDB IDs and their corresponding chains.
+    Parses the DALI result file to extract unique PDB IDs and their corresponding chains,
+    limiting the number of PDBs processed to the top 50.
     
     Args:
         file_path (str): Path to the DALI result file.
+        limit (int): The maximum number of PDB entries to process (default: 50).
     
     Returns:
         dict: A dictionary with PDB IDs as keys and chain identifiers as values.
@@ -38,6 +40,8 @@ def extract_unique_pdb_ids_and_chains(file_path):
                     chain_id = match.group(3)
                     if pdb_id not in pdb_chain_dict:
                         pdb_chain_dict[pdb_id] = chain_id
+                        if len(pdb_chain_dict) >= limit:  # Stop after collecting 'limit' entries
+                            break
     except Exception as e:
         logging.error(f"Error reading or processing the DALI result file: {e}")
     return pdb_chain_dict
@@ -153,17 +157,17 @@ def copy_cif_files(destination_directory, pdb_ids):
 
 # Step 5: Main Workflow
 def main():
-    dali_result_path = '6sb3A.txt'  # Path to your DALI result file (remember to chnage the file when using this script)
+    dali_result_path = '6sb3A.txt'  # Path to your DALI result file (remember to change the file when using this script)
     output_directory = 'processed_pdbs'  # Directory to save the processed PDB files
     downloaded_pdbs_directory = 'downloaded_pdbs'  # Directory to save the downloaded CIF files
     source_cif_directory = '.'  # Directory where original CIF files are located (root directory)
     
-    # Step 1: Extract unique PDB IDs and chains
-    pdb_chain_dict = extract_unique_pdb_ids_and_chains(dali_result_path)
+    # Step 1: Extract unique PDB IDs and chains (limit to 50)
+    pdb_chain_dict = extract_unique_pdb_ids_and_chains(dali_result_path, limit=50)
     if not pdb_chain_dict:
         logging.warning("No PDB IDs and chains extracted. Exiting the script.")
         return
-    logging.info(f"Unique PDB IDs extracted: {list(pdb_chain_dict.keys())}")
+    logging.info(f"Unique PDB IDs extracted (limited to top 50): {list(pdb_chain_dict.keys())}")
     
     # Step 2: Initialize PyMOL
     pm = initialize_pymol()
@@ -177,7 +181,7 @@ def main():
     # Finalize PyMOL
     try:
         quit_command = f"quit"
-        pm(quit_command)
+        pm(quit_command) 
         logging.info("PyMOL session terminated successfully.")
     except AttributeError:
         logging.error("Error terminating PyMOL session: 'pymolPy3' object has no attribute 'quit'")
