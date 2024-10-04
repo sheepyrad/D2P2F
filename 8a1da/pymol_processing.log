@@ -1,0 +1,489 @@
+2024-10-04 15:18:36,810 - INFO - Unique PDB IDs extracted: ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie', '2of3', '3woz', '3urz', '9b9m', '2mbg', '5aoe', '7usd', '8e2h', '5o9z', '8bmx', '4i9e', '7esx', '5v4r', '2o8p', '7qe7', '5y3t', '8qt5', '6v7b', '7c0q', '5dbk', '4cgu', '2qeu', '5xw7', '7zhm', '6swu', '6swy', '6h02', '8sxf', '6vu8', '7naz', '5cwd', '5tqb', '6igx', '3sz7', '5dn7', '5fu7', '6hd5', '4cr2', '5i9d', '2y4u', '7udk', '5f5t', '5mpd', '5edl', '7kpx', '1qrj', 's001']
+2024-10-04 15:18:36,822 - INFO - PyMOL initialized successfully.
+2024-10-04 15:18:36,824 - DEBUG - Created output directory: processed_pdbs
+2024-10-04 15:18:36,825 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-04 15:18:36,826 - INFO - Fetched PDB ID: 6sb5
+2024-10-04 15:18:41,833 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-04 15:18:46,835 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs/6sb5D.pdb
+2024-10-04 15:18:51,841 - DEBUG - Deleted PDB object 6sb5 from PyMOL
+2024-10-04 15:18:56,847 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-04 15:18:56,848 - INFO - Fetched PDB ID: 6sb4
+2024-10-04 15:19:01,852 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-04 15:19:06,856 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs/6sb4C.pdb
+2024-10-04 15:19:11,857 - DEBUG - Deleted PDB object 6sb4 from PyMOL
+2024-10-04 15:19:16,860 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-04 15:19:16,861 - INFO - Fetched PDB ID: 6sb1
+2024-10-04 15:19:21,864 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-04 15:19:26,870 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs/6sb1A.pdb
+2024-10-04 15:19:31,877 - DEBUG - Deleted PDB object 6sb1 from PyMOL
+2024-10-04 15:19:36,879 - DEBUG - Processing PDB ID: 6u2j, Chain: M
+2024-10-04 15:19:36,880 - INFO - Fetched PDB ID: 6u2j
+2024-10-04 15:19:41,882 - DEBUG - Removed all chains except Chain M for PDB ID: 6u2j
+2024-10-04 15:19:46,883 - INFO - Saved Chain M of PDB ID 6u2j to processed_pdbs/6u2jM.pdb
+2024-10-04 15:19:51,888 - DEBUG - Deleted PDB object 6u2j from PyMOL
+2024-10-04 15:19:56,889 - DEBUG - Processing PDB ID: 6u2k, Chain: B
+2024-10-04 15:19:56,890 - INFO - Fetched PDB ID: 6u2k
+2024-10-04 15:20:01,893 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2k
+2024-10-04 15:20:06,896 - INFO - Saved Chain B of PDB ID 6u2k to processed_pdbs/6u2kB.pdb
+2024-10-04 15:20:11,902 - DEBUG - Deleted PDB object 6u2k from PyMOL
+2024-10-04 15:20:16,905 - DEBUG - Processing PDB ID: 6sb3, Chain: A
+2024-10-04 15:20:16,906 - INFO - Fetched PDB ID: 6sb3
+2024-10-04 15:20:21,910 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb3
+2024-10-04 15:20:26,913 - INFO - Saved Chain A of PDB ID 6sb3 to processed_pdbs/6sb3A.pdb
+2024-10-04 15:20:31,915 - DEBUG - Deleted PDB object 6sb3 from PyMOL
+2024-10-04 15:20:36,921 - DEBUG - Processing PDB ID: 6u23, Chain: A
+2024-10-04 15:20:36,921 - INFO - Fetched PDB ID: 6u23
+2024-10-04 15:20:41,925 - DEBUG - Removed all chains except Chain A for PDB ID: 6u23
+2024-10-04 15:20:46,927 - INFO - Saved Chain A of PDB ID 6u23 to processed_pdbs/6u23A.pdb
+2024-10-04 15:20:51,929 - DEBUG - Deleted PDB object 6u23 from PyMOL
+2024-10-04 15:20:56,936 - DEBUG - Processing PDB ID: 6u2w, Chain: B
+2024-10-04 15:20:56,937 - INFO - Fetched PDB ID: 6u2w
+2024-10-04 15:21:01,939 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2w
+2024-10-04 15:21:06,941 - INFO - Saved Chain B of PDB ID 6u2w to processed_pdbs/6u2wB.pdb
+2024-10-04 15:21:11,945 - DEBUG - Deleted PDB object 6u2w from PyMOL
+2024-10-04 15:21:16,948 - DEBUG - Processing PDB ID: 7nyd, Chain: D
+2024-10-04 15:21:16,949 - INFO - Fetched PDB ID: 7nyd
+2024-10-04 15:21:21,954 - DEBUG - Removed all chains except Chain D for PDB ID: 7nyd
+2024-10-04 15:21:26,959 - INFO - Saved Chain D of PDB ID 7nyd to processed_pdbs/7nydD.pdb
+2024-10-04 15:21:31,968 - DEBUG - Deleted PDB object 7nyd from PyMOL
+2024-10-04 15:21:36,973 - DEBUG - Processing PDB ID: 7nyc, Chain: D
+2024-10-04 15:21:36,974 - INFO - Fetched PDB ID: 7nyc
+2024-10-04 15:21:41,975 - DEBUG - Removed all chains except Chain D for PDB ID: 7nyc
+2024-10-04 15:21:46,982 - INFO - Saved Chain D of PDB ID 7nyc to processed_pdbs/7nycD.pdb
+2024-10-04 15:21:51,984 - DEBUG - Deleted PDB object 7nyc from PyMOL
+2024-10-04 15:21:56,988 - DEBUG - Processing PDB ID: 6h04, Chain: W
+2024-10-04 15:21:56,989 - INFO - Fetched PDB ID: 6h04
+2024-10-04 15:22:01,995 - DEBUG - Removed all chains except Chain W for PDB ID: 6h04
+2024-10-04 15:22:07,001 - INFO - Saved Chain W of PDB ID 6h04 to processed_pdbs/6h04W.pdb
+2024-10-04 15:22:12,007 - DEBUG - Deleted PDB object 6h04 from PyMOL
+2024-10-04 15:22:17,009 - DEBUG - Processing PDB ID: 6dlw, Chain: M
+2024-10-04 15:22:17,010 - INFO - Fetched PDB ID: 6dlw
+2024-10-04 15:22:22,016 - DEBUG - Removed all chains except Chain M for PDB ID: 6dlw
+2024-10-04 15:22:27,019 - INFO - Saved Chain M of PDB ID 6dlw to processed_pdbs/6dlwM.pdb
+2024-10-04 15:22:32,025 - DEBUG - Deleted PDB object 6dlw from PyMOL
+2024-10-04 15:22:37,029 - DEBUG - Processing PDB ID: 7pag, Chain: A
+2024-10-04 15:22:37,031 - INFO - Fetched PDB ID: 7pag
+2024-10-04 15:22:42,032 - DEBUG - Removed all chains except Chain A for PDB ID: 7pag
+2024-10-04 15:22:45,013 - INFO - Saved Chain A of PDB ID 7pag to processed_pdbs/7pagA.pdb
+2024-10-04 15:22:50,016 - DEBUG - Deleted PDB object 7pag from PyMOL
+2024-10-04 15:22:55,019 - DEBUG - Processing PDB ID: 3nsj, Chain: A
+2024-10-04 15:22:55,020 - INFO - Fetched PDB ID: 3nsj
+2024-10-04 15:23:00,023 - DEBUG - Removed all chains except Chain A for PDB ID: 3nsj
+2024-10-04 15:23:05,026 - INFO - Saved Chain A of PDB ID 3nsj to processed_pdbs/3nsjA.pdb
+2024-10-04 15:23:10,028 - DEBUG - Deleted PDB object 3nsj from PyMOL
+2024-10-04 15:23:15,030 - DEBUG - Processing PDB ID: 2qqh, Chain: A
+2024-10-04 15:23:15,045 - INFO - Fetched PDB ID: 2qqh
+2024-10-04 15:23:20,055 - DEBUG - Removed all chains except Chain A for PDB ID: 2qqh
+2024-10-04 15:23:25,057 - INFO - Saved Chain A of PDB ID 2qqh to processed_pdbs/2qqhA.pdb
+2024-10-04 15:23:30,060 - DEBUG - Deleted PDB object 2qqh from PyMOL
+2024-10-04 15:23:35,061 - DEBUG - Processing PDB ID: 2rd7, Chain: A
+2024-10-04 15:23:35,061 - INFO - Fetched PDB ID: 2rd7
+2024-10-04 15:23:40,068 - DEBUG - Removed all chains except Chain A for PDB ID: 2rd7
+2024-10-04 15:23:45,073 - INFO - Saved Chain A of PDB ID 2rd7 to processed_pdbs/2rd7A.pdb
+2024-10-04 15:23:50,075 - DEBUG - Deleted PDB object 2rd7 from PyMOL
+2024-10-04 15:23:55,081 - DEBUG - Processing PDB ID: 3ojy, Chain: A
+2024-10-04 15:23:55,082 - INFO - Fetched PDB ID: 3ojy
+2024-10-04 15:24:00,087 - DEBUG - Removed all chains except Chain A for PDB ID: 3ojy
+2024-10-04 15:24:05,093 - INFO - Saved Chain A of PDB ID 3ojy to processed_pdbs/3ojyA.pdb
+2024-10-04 15:24:10,098 - DEBUG - Deleted PDB object 3ojy from PyMOL
+2024-10-04 15:24:15,101 - DEBUG - Processing PDB ID: 5j67, Chain: C
+2024-10-04 15:24:15,103 - INFO - Fetched PDB ID: 5j67
+2024-10-04 15:24:20,106 - DEBUG - Removed all chains except Chain C for PDB ID: 5j67
+2024-10-04 15:24:25,107 - INFO - Saved Chain C of PDB ID 5j67 to processed_pdbs/5j67C.pdb
+2024-10-04 15:24:30,110 - DEBUG - Deleted PDB object 5j67 from PyMOL
+2024-10-04 15:24:35,111 - DEBUG - Processing PDB ID: 5j69, Chain: B
+2024-10-04 15:24:35,112 - INFO - Fetched PDB ID: 5j69
+2024-10-04 15:24:40,116 - DEBUG - Removed all chains except Chain B for PDB ID: 5j69
+2024-10-04 15:24:45,118 - INFO - Saved Chain B of PDB ID 5j69 to processed_pdbs/5j69B.pdb
+2024-10-04 15:24:50,121 - DEBUG - Deleted PDB object 5j69 from PyMOL
+2024-10-04 15:24:55,122 - DEBUG - Processing PDB ID: 5j68, Chain: A
+2024-10-04 15:24:55,123 - INFO - Fetched PDB ID: 5j68
+2024-10-04 15:25:00,125 - DEBUG - Removed all chains except Chain A for PDB ID: 5j68
+2024-10-04 15:25:05,129 - INFO - Saved Chain A of PDB ID 5j68 to processed_pdbs/5j68A.pdb
+2024-10-04 15:25:10,134 - DEBUG - Deleted PDB object 5j68 from PyMOL
+2024-10-04 15:25:15,139 - DEBUG - Processing PDB ID: 6fbm, Chain: A
+2024-10-04 15:25:15,140 - INFO - Fetched PDB ID: 6fbm
+2024-10-04 15:25:20,141 - DEBUG - Removed all chains except Chain A for PDB ID: 6fbm
+2024-10-04 15:25:25,143 - INFO - Saved Chain A of PDB ID 6fbm to processed_pdbs/6fbmA.pdb
+2024-10-04 15:25:30,145 - DEBUG - Deleted PDB object 6fbm from PyMOL
+2024-10-04 15:25:35,150 - DEBUG - Processing PDB ID: 3t5o, Chain: A
+2024-10-04 15:25:35,151 - INFO - Fetched PDB ID: 3t5o
+2024-10-04 15:25:40,154 - DEBUG - Removed all chains except Chain A for PDB ID: 3t5o
+2024-10-04 15:25:45,156 - INFO - Saved Chain A of PDB ID 3t5o to processed_pdbs/3t5oA.pdb
+2024-10-04 15:25:50,159 - DEBUG - Deleted PDB object 3t5o from PyMOL
+2024-10-04 15:25:55,166 - DEBUG - Processing PDB ID: 5ouq, Chain: D
+2024-10-04 15:25:55,167 - INFO - Fetched PDB ID: 5ouq
+2024-10-04 15:26:00,171 - DEBUG - Removed all chains except Chain D for PDB ID: 5ouq
+2024-10-04 15:26:05,174 - INFO - Saved Chain D of PDB ID 5ouq to processed_pdbs/5ouqD.pdb
+2024-10-04 15:26:10,176 - DEBUG - Deleted PDB object 5ouq from PyMOL
+2024-10-04 15:26:15,178 - DEBUG - Processing PDB ID: 5oup, Chain: A
+2024-10-04 15:26:15,179 - INFO - Fetched PDB ID: 5oup
+2024-10-04 15:26:20,183 - DEBUG - Removed all chains except Chain A for PDB ID: 5oup
+2024-10-04 15:26:25,184 - INFO - Saved Chain A of PDB ID 5oup to processed_pdbs/5oupA.pdb
+2024-10-04 15:26:30,185 - DEBUG - Deleted PDB object 5oup from PyMOL
+2024-10-04 15:26:35,190 - DEBUG - Processing PDB ID: 5own, Chain: B
+2024-10-04 15:26:35,191 - INFO - Fetched PDB ID: 5own
+2024-10-04 15:26:40,197 - DEBUG - Removed all chains except Chain B for PDB ID: 5own
+2024-10-04 15:26:45,198 - INFO - Saved Chain B of PDB ID 5own to processed_pdbs/5ownB.pdb
+2024-10-04 15:26:50,202 - DEBUG - Deleted PDB object 5own from PyMOL
+2024-10-04 15:26:55,206 - DEBUG - Processing PDB ID: 4e0s, Chain: B
+2024-10-04 15:26:55,207 - INFO - Fetched PDB ID: 4e0s
+2024-10-04 15:27:00,211 - DEBUG - Removed all chains except Chain B for PDB ID: 4e0s
+2024-10-04 15:27:05,215 - INFO - Saved Chain B of PDB ID 4e0s to processed_pdbs/4e0sB.pdb
+2024-10-04 15:27:10,216 - DEBUG - Deleted PDB object 4e0s from PyMOL
+2024-10-04 15:27:15,222 - DEBUG - Processing PDB ID: 2qp2, Chain: A
+2024-10-04 15:27:15,223 - INFO - Fetched PDB ID: 2qp2
+2024-10-04 15:27:20,228 - DEBUG - Removed all chains except Chain A for PDB ID: 2qp2
+2024-10-04 15:27:25,231 - INFO - Saved Chain A of PDB ID 2qp2 to processed_pdbs/2qp2A.pdb
+2024-10-04 15:27:30,232 - DEBUG - Deleted PDB object 2qp2 from PyMOL
+2024-10-04 15:27:35,238 - DEBUG - Processing PDB ID: 6cxo, Chain: A
+2024-10-04 15:27:35,240 - INFO - Fetched PDB ID: 6cxo
+2024-10-04 15:27:40,243 - DEBUG - Removed all chains except Chain A for PDB ID: 6cxo
+2024-10-04 15:27:45,250 - INFO - Saved Chain A of PDB ID 6cxo to processed_pdbs/6cxoA.pdb
+2024-10-04 15:27:50,252 - DEBUG - Deleted PDB object 6cxo from PyMOL
+2024-10-04 15:27:55,257 - DEBUG - Processing PDB ID: 8b6u, Chain: A
+2024-10-04 15:27:55,258 - INFO - Fetched PDB ID: 8b6u
+2024-10-04 15:28:00,261 - DEBUG - Removed all chains except Chain A for PDB ID: 8b6u
+2024-10-04 15:28:05,265 - INFO - Saved Chain A of PDB ID 8b6u to processed_pdbs/8b6uA.pdb
+2024-10-04 15:28:10,269 - DEBUG - Deleted PDB object 8b6u from PyMOL
+2024-10-04 15:28:15,271 - DEBUG - Processing PDB ID: 4a5w, Chain: B
+2024-10-04 15:28:15,272 - INFO - Fetched PDB ID: 4a5w
+2024-10-04 15:28:20,273 - DEBUG - Removed all chains except Chain B for PDB ID: 4a5w
+2024-10-04 15:28:25,275 - INFO - Saved Chain B of PDB ID 4a5w to processed_pdbs/4a5wB.pdb
+2024-10-04 15:28:30,277 - DEBUG - Deleted PDB object 4a5w from PyMOL
+2024-10-04 15:28:35,280 - DEBUG - Processing PDB ID: 3kk7, Chain: A
+2024-10-04 15:28:35,281 - INFO - Fetched PDB ID: 3kk7
+2024-10-04 15:28:40,285 - DEBUG - Removed all chains except Chain A for PDB ID: 3kk7
+2024-10-04 15:28:45,287 - INFO - Saved Chain A of PDB ID 3kk7 to processed_pdbs/3kk7A.pdb
+2024-10-04 15:28:50,290 - DEBUG - Deleted PDB object 3kk7 from PyMOL
+2024-10-04 15:28:55,292 - DEBUG - Processing PDB ID: 4oej, Chain: A
+2024-10-04 15:28:55,293 - INFO - Fetched PDB ID: 4oej
+2024-10-04 15:29:00,309 - DEBUG - Removed all chains except Chain A for PDB ID: 4oej
+2024-10-04 15:29:05,319 - INFO - Saved Chain A of PDB ID 4oej to processed_pdbs/4oejA.pdb
+2024-10-04 15:29:10,321 - DEBUG - Deleted PDB object 4oej from PyMOL
+2024-10-04 15:29:15,323 - DEBUG - Processing PDB ID: 4ov8, Chain: A
+2024-10-04 15:29:15,324 - INFO - Fetched PDB ID: 4ov8
+2024-10-04 15:29:20,326 - DEBUG - Removed all chains except Chain A for PDB ID: 4ov8
+2024-10-04 15:29:25,350 - INFO - Saved Chain A of PDB ID 4ov8 to processed_pdbs/4ov8A.pdb
+2024-10-04 15:29:30,358 - DEBUG - Deleted PDB object 4ov8 from PyMOL
+2024-10-04 15:29:35,362 - DEBUG - Processing PDB ID: 6r2q, Chain: B
+2024-10-04 15:29:35,362 - INFO - Fetched PDB ID: 6r2q
+2024-10-04 15:29:40,367 - DEBUG - Removed all chains except Chain B for PDB ID: 6r2q
+2024-10-04 15:29:45,373 - INFO - Saved Chain B of PDB ID 6r2q to processed_pdbs/6r2qB.pdb
+2024-10-04 15:29:50,376 - DEBUG - Deleted PDB object 6r2q from PyMOL
+2024-10-04 15:29:55,381 - DEBUG - Processing PDB ID: 5ljm, Chain: A
+2024-10-04 15:29:55,382 - INFO - Fetched PDB ID: 5ljm
+2024-10-04 15:30:00,386 - DEBUG - Removed all chains except Chain A for PDB ID: 5ljm
+2024-10-04 15:30:05,390 - INFO - Saved Chain A of PDB ID 5ljm to processed_pdbs/5ljmA.pdb
+2024-10-04 15:30:10,399 - DEBUG - Deleted PDB object 5ljm from PyMOL
+2024-10-04 15:30:15,403 - DEBUG - Processing PDB ID: 4leu, Chain: A
+2024-10-04 15:30:15,405 - INFO - Fetched PDB ID: 4leu
+2024-10-04 15:30:20,409 - DEBUG - Removed all chains except Chain A for PDB ID: 4leu
+2024-10-04 15:30:25,412 - INFO - Saved Chain A of PDB ID 4leu to processed_pdbs/4leuA.pdb
+2024-10-04 15:30:30,418 - DEBUG - Deleted PDB object 4leu from PyMOL
+2024-10-04 15:30:35,424 - DEBUG - Processing PDB ID: 3v89, Chain: A
+2024-10-04 15:30:35,425 - INFO - Fetched PDB ID: 3v89
+2024-10-04 15:30:40,429 - DEBUG - Removed all chains except Chain A for PDB ID: 3v89
+2024-10-04 15:30:45,435 - INFO - Saved Chain A of PDB ID 3v89 to processed_pdbs/3v89A.pdb
+2024-10-04 15:30:50,439 - DEBUG - Deleted PDB object 3v89 from PyMOL
+2024-10-04 15:30:55,441 - DEBUG - Processing PDB ID: 4wvm, Chain: B
+2024-10-04 15:30:55,442 - INFO - Fetched PDB ID: 4wvm
+2024-10-04 15:31:00,446 - DEBUG - Removed all chains except Chain B for PDB ID: 4wvm
+2024-10-04 15:31:05,448 - INFO - Saved Chain B of PDB ID 4wvm to processed_pdbs/4wvmB.pdb
+2024-10-04 15:31:10,452 - DEBUG - Deleted PDB object 4wvm from PyMOL
+2024-10-04 15:31:15,455 - DEBUG - Processing PDB ID: 4cdb, Chain: A
+2024-10-04 15:31:15,459 - INFO - Fetched PDB ID: 4cdb
+2024-10-04 15:31:20,467 - DEBUG - Removed all chains except Chain A for PDB ID: 4cdb
+2024-10-04 15:31:25,470 - INFO - Saved Chain A of PDB ID 4cdb to processed_pdbs/4cdbA.pdb
+2024-10-04 15:31:30,475 - DEBUG - Deleted PDB object 4cdb from PyMOL
+2024-10-04 15:31:35,482 - DEBUG - Processing PDB ID: 7zke, Chain: E
+2024-10-04 15:31:35,483 - INFO - Fetched PDB ID: 7zke
+2024-10-04 15:31:40,484 - DEBUG - Removed all chains except Chain E for PDB ID: 7zke
+2024-10-04 15:31:45,488 - INFO - Saved Chain E of PDB ID 7zke to processed_pdbs/7zkeE.pdb
+2024-10-04 15:31:50,493 - DEBUG - Deleted PDB object 7zke from PyMOL
+2024-10-04 15:31:55,496 - DEBUG - Processing PDB ID: 2grm, Chain: A
+2024-10-04 15:31:55,497 - INFO - Fetched PDB ID: 2grm
+2024-10-04 15:32:00,501 - DEBUG - Removed all chains except Chain A for PDB ID: 2grm
+2024-10-04 15:32:05,503 - INFO - Saved Chain A of PDB ID 2grm to processed_pdbs/2grmA.pdb
+2024-10-04 15:32:10,505 - DEBUG - Deleted PDB object 2grm from PyMOL
+2024-10-04 15:32:15,509 - DEBUG - Processing PDB ID: 5tc1, Chain: M
+2024-10-04 15:32:15,510 - INFO - Fetched PDB ID: 5tc1
+2024-10-04 15:32:20,513 - DEBUG - Removed all chains except Chain M for PDB ID: 5tc1
+2024-10-04 15:32:25,517 - INFO - Saved Chain M of PDB ID 5tc1 to processed_pdbs/5tc1M.pdb
+2024-10-04 15:32:30,522 - DEBUG - Deleted PDB object 5tc1 from PyMOL
+2024-10-04 15:32:35,526 - DEBUG - Processing PDB ID: 8dml, Chain: B
+2024-10-04 15:32:35,527 - INFO - Fetched PDB ID: 8dml
+2024-10-04 15:32:40,531 - DEBUG - Removed all chains except Chain B for PDB ID: 8dml
+2024-10-04 15:32:45,534 - INFO - Saved Chain B of PDB ID 8dml to processed_pdbs/8dmlB.pdb
+2024-10-04 15:32:50,536 - DEBUG - Deleted PDB object 8dml from PyMOL
+2024-10-04 15:32:55,540 - DEBUG - Processing PDB ID: 5fq6, Chain: M
+2024-10-04 15:32:55,541 - INFO - Fetched PDB ID: 5fq6
+2024-10-04 15:33:00,545 - DEBUG - Removed all chains except Chain M for PDB ID: 5fq6
+2024-10-04 15:33:05,557 - INFO - Saved Chain M of PDB ID 5fq6 to processed_pdbs/5fq6M.pdb
+2024-10-04 15:33:10,561 - DEBUG - Deleted PDB object 5fq6 from PyMOL
+2024-10-04 15:33:15,564 - DEBUG - Processing PDB ID: 7jw3, Chain: C
+2024-10-04 15:33:15,565 - INFO - Fetched PDB ID: 7jw3
+2024-10-04 15:33:20,568 - DEBUG - Removed all chains except Chain C for PDB ID: 7jw3
+2024-10-04 15:33:25,574 - INFO - Saved Chain C of PDB ID 7jw3 to processed_pdbs/7jw3C.pdb
+2024-10-04 15:33:30,576 - DEBUG - Deleted PDB object 7jw3 from PyMOL
+2024-10-04 15:33:35,578 - DEBUG - Processing PDB ID: 6xd4, Chain: A
+2024-10-04 15:33:35,580 - INFO - Fetched PDB ID: 6xd4
+2024-10-04 15:33:40,581 - DEBUG - Removed all chains except Chain A for PDB ID: 6xd4
+2024-10-04 15:33:45,583 - INFO - Saved Chain A of PDB ID 6xd4 to processed_pdbs/6xd4A.pdb
+2024-10-04 15:33:50,584 - DEBUG - Deleted PDB object 6xd4 from PyMOL
+2024-10-04 15:33:55,586 - DEBUG - Processing PDB ID: 4me2, Chain: A
+2024-10-04 15:33:55,587 - INFO - Fetched PDB ID: 4me2
+2024-10-04 15:34:00,590 - DEBUG - Removed all chains except Chain A for PDB ID: 4me2
+2024-10-04 15:34:05,591 - INFO - Saved Chain A of PDB ID 4me2 to processed_pdbs/4me2A.pdb
+2024-10-04 15:34:10,593 - DEBUG - Deleted PDB object 4me2 from PyMOL
+2024-10-04 15:34:15,598 - DEBUG - Processing PDB ID: 3l6a, Chain: A
+2024-10-04 15:34:15,600 - INFO - Fetched PDB ID: 3l6a
+2024-10-04 15:34:20,603 - DEBUG - Removed all chains except Chain A for PDB ID: 3l6a
+2024-10-04 15:34:25,606 - INFO - Saved Chain A of PDB ID 3l6a to processed_pdbs/3l6aA.pdb
+2024-10-04 15:34:30,608 - DEBUG - Deleted PDB object 3l6a from PyMOL
+2024-10-04 15:34:35,612 - DEBUG - Processing PDB ID: 8jj6, Chain: A
+2024-10-04 15:34:35,613 - INFO - Fetched PDB ID: 8jj6
+2024-10-04 15:34:40,614 - DEBUG - Removed all chains except Chain A for PDB ID: 8jj6
+2024-10-04 15:34:45,619 - INFO - Saved Chain A of PDB ID 8jj6 to processed_pdbs/8jj6A.pdb
+2024-10-04 15:34:50,625 - DEBUG - Deleted PDB object 8jj6 from PyMOL
+2024-10-04 15:34:55,627 - DEBUG - Processing PDB ID: 6gie, Chain: A
+2024-10-04 15:34:55,628 - INFO - Fetched PDB ID: 6gie
+2024-10-04 15:35:00,631 - DEBUG - Removed all chains except Chain A for PDB ID: 6gie
+2024-10-04 15:35:05,637 - INFO - Saved Chain A of PDB ID 6gie to processed_pdbs/6gieA.pdb
+2024-10-04 15:35:10,638 - DEBUG - Deleted PDB object 6gie from PyMOL
+2024-10-04 15:35:15,644 - DEBUG - Processing PDB ID: 2of3, Chain: A
+2024-10-04 15:35:15,645 - INFO - Fetched PDB ID: 2of3
+2024-10-04 15:35:20,647 - DEBUG - Removed all chains except Chain A for PDB ID: 2of3
+2024-10-04 15:35:25,651 - INFO - Saved Chain A of PDB ID 2of3 to processed_pdbs/2of3A.pdb
+2024-10-04 15:35:30,656 - DEBUG - Deleted PDB object 2of3 from PyMOL
+2024-10-04 15:35:35,658 - DEBUG - Processing PDB ID: 3woz, Chain: B
+2024-10-04 15:35:35,659 - INFO - Fetched PDB ID: 3woz
+2024-10-04 15:35:40,661 - DEBUG - Removed all chains except Chain B for PDB ID: 3woz
+2024-10-04 15:35:45,665 - INFO - Saved Chain B of PDB ID 3woz to processed_pdbs/3wozB.pdb
+2024-10-04 15:35:50,672 - DEBUG - Deleted PDB object 3woz from PyMOL
+2024-10-04 15:35:55,676 - DEBUG - Processing PDB ID: 3urz, Chain: B
+2024-10-04 15:35:55,677 - INFO - Fetched PDB ID: 3urz
+2024-10-04 15:36:00,679 - DEBUG - Removed all chains except Chain B for PDB ID: 3urz
+2024-10-04 15:36:05,682 - INFO - Saved Chain B of PDB ID 3urz to processed_pdbs/3urzB.pdb
+2024-10-04 15:36:10,687 - DEBUG - Deleted PDB object 3urz from PyMOL
+2024-10-04 15:36:15,690 - DEBUG - Processing PDB ID: 9b9m, Chain: B
+2024-10-04 15:36:15,691 - INFO - Fetched PDB ID: 9b9m
+2024-10-04 15:36:20,692 - DEBUG - Removed all chains except Chain B for PDB ID: 9b9m
+2024-10-04 15:36:25,695 - INFO - Saved Chain B of PDB ID 9b9m to processed_pdbs/9b9mB.pdb
+2024-10-04 15:36:30,701 - DEBUG - Deleted PDB object 9b9m from PyMOL
+2024-10-04 15:36:35,702 - DEBUG - Processing PDB ID: 2mbg, Chain: A
+2024-10-04 15:36:35,703 - INFO - Fetched PDB ID: 2mbg
+2024-10-04 15:36:40,708 - DEBUG - Removed all chains except Chain A for PDB ID: 2mbg
+2024-10-04 15:36:45,712 - INFO - Saved Chain A of PDB ID 2mbg to processed_pdbs/2mbgA.pdb
+2024-10-04 15:36:50,717 - DEBUG - Deleted PDB object 2mbg from PyMOL
+2024-10-04 15:36:55,722 - DEBUG - Processing PDB ID: 5aoe, Chain: A
+2024-10-04 15:36:55,723 - INFO - Fetched PDB ID: 5aoe
+2024-10-04 15:37:00,728 - DEBUG - Removed all chains except Chain A for PDB ID: 5aoe
+2024-10-04 15:37:05,730 - INFO - Saved Chain A of PDB ID 5aoe to processed_pdbs/5aoeA.pdb
+2024-10-04 15:37:10,734 - DEBUG - Deleted PDB object 5aoe from PyMOL
+2024-10-04 15:37:15,737 - DEBUG - Processing PDB ID: 7usd, Chain: A
+2024-10-04 15:37:15,738 - INFO - Fetched PDB ID: 7usd
+2024-10-04 15:37:20,741 - DEBUG - Removed all chains except Chain A for PDB ID: 7usd
+2024-10-04 15:37:25,744 - INFO - Saved Chain A of PDB ID 7usd to processed_pdbs/7usdA.pdb
+2024-10-04 15:37:30,749 - DEBUG - Deleted PDB object 7usd from PyMOL
+2024-10-04 15:37:35,753 - DEBUG - Processing PDB ID: 8e2h, Chain: A
+2024-10-04 15:37:35,754 - INFO - Fetched PDB ID: 8e2h
+2024-10-04 15:37:40,757 - DEBUG - Removed all chains except Chain A for PDB ID: 8e2h
+2024-10-04 15:37:45,763 - INFO - Saved Chain A of PDB ID 8e2h to processed_pdbs/8e2hA.pdb
+2024-10-04 15:37:50,767 - DEBUG - Deleted PDB object 8e2h from PyMOL
+2024-10-04 15:37:57,851 - DEBUG - Processing PDB ID: 5o9z, Chain: G
+2024-10-04 15:37:57,853 - INFO - Fetched PDB ID: 5o9z
+2024-10-04 15:38:02,857 - DEBUG - Removed all chains except Chain G for PDB ID: 5o9z
+2024-10-04 15:38:07,860 - INFO - Saved Chain G of PDB ID 5o9z to processed_pdbs/5o9zG.pdb
+2024-10-04 15:38:12,868 - DEBUG - Deleted PDB object 5o9z from PyMOL
+2024-10-04 15:38:17,873 - DEBUG - Processing PDB ID: 8bmx, Chain: C
+2024-10-04 15:38:17,874 - INFO - Fetched PDB ID: 8bmx
+2024-10-04 15:38:22,880 - DEBUG - Removed all chains except Chain C for PDB ID: 8bmx
+2024-10-04 15:38:27,885 - INFO - Saved Chain C of PDB ID 8bmx to processed_pdbs/8bmxC.pdb
+2024-10-04 15:38:32,889 - DEBUG - Deleted PDB object 8bmx from PyMOL
+2024-10-04 15:38:37,891 - DEBUG - Processing PDB ID: 4i9e, Chain: A
+2024-10-04 15:38:37,892 - INFO - Fetched PDB ID: 4i9e
+2024-10-04 15:38:42,894 - DEBUG - Removed all chains except Chain A for PDB ID: 4i9e
+2024-10-04 15:38:47,898 - INFO - Saved Chain A of PDB ID 4i9e to processed_pdbs/4i9eA.pdb
+2024-10-04 15:38:52,901 - DEBUG - Deleted PDB object 4i9e from PyMOL
+2024-10-04 15:38:57,905 - DEBUG - Processing PDB ID: 7esx, Chain: A
+2024-10-04 15:38:57,907 - INFO - Fetched PDB ID: 7esx
+2024-10-04 15:39:02,912 - DEBUG - Removed all chains except Chain A for PDB ID: 7esx
+2024-10-04 15:39:07,915 - INFO - Saved Chain A of PDB ID 7esx to processed_pdbs/7esxA.pdb
+2024-10-04 15:39:12,919 - DEBUG - Deleted PDB object 7esx from PyMOL
+2024-10-04 15:39:17,922 - DEBUG - Processing PDB ID: 5v4r, Chain: A
+2024-10-04 15:39:17,923 - INFO - Fetched PDB ID: 5v4r
+2024-10-04 15:39:22,930 - DEBUG - Removed all chains except Chain A for PDB ID: 5v4r
+2024-10-04 15:39:27,933 - INFO - Saved Chain A of PDB ID 5v4r to processed_pdbs/5v4rA.pdb
+2024-10-04 15:39:32,938 - DEBUG - Deleted PDB object 5v4r from PyMOL
+2024-10-04 15:39:37,940 - DEBUG - Processing PDB ID: 2o8p, Chain: A
+2024-10-04 15:39:37,942 - INFO - Fetched PDB ID: 2o8p
+2024-10-04 15:39:42,947 - DEBUG - Removed all chains except Chain A for PDB ID: 2o8p
+2024-10-04 15:39:47,950 - INFO - Saved Chain A of PDB ID 2o8p to processed_pdbs/2o8pA.pdb
+2024-10-04 15:39:52,954 - DEBUG - Deleted PDB object 2o8p from PyMOL
+2024-10-04 15:39:57,960 - DEBUG - Processing PDB ID: 7qe7, Chain: K
+2024-10-04 15:39:57,963 - INFO - Fetched PDB ID: 7qe7
+2024-10-04 15:40:02,968 - DEBUG - Removed all chains except Chain K for PDB ID: 7qe7
+2024-10-04 15:40:07,973 - INFO - Saved Chain K of PDB ID 7qe7 to processed_pdbs/7qe7K.pdb
+2024-10-04 15:40:12,979 - DEBUG - Deleted PDB object 7qe7 from PyMOL
+2024-10-04 15:40:17,983 - DEBUG - Processing PDB ID: 5y3t, Chain: A
+2024-10-04 15:40:17,985 - INFO - Fetched PDB ID: 5y3t
+2024-10-04 15:40:22,988 - DEBUG - Removed all chains except Chain A for PDB ID: 5y3t
+2024-10-04 15:40:27,996 - INFO - Saved Chain A of PDB ID 5y3t to processed_pdbs/5y3tA.pdb
+2024-10-04 15:40:33,000 - DEBUG - Deleted PDB object 5y3t from PyMOL
+2024-10-04 15:40:38,003 - DEBUG - Processing PDB ID: 8qt5, Chain: A
+2024-10-04 15:40:38,004 - INFO - Fetched PDB ID: 8qt5
+2024-10-04 15:40:43,006 - DEBUG - Removed all chains except Chain A for PDB ID: 8qt5
+2024-10-04 15:40:48,012 - INFO - Saved Chain A of PDB ID 8qt5 to processed_pdbs/8qt5A.pdb
+2024-10-04 15:40:53,013 - DEBUG - Deleted PDB object 8qt5 from PyMOL
+2024-10-04 15:40:58,019 - DEBUG - Processing PDB ID: 6v7b, Chain: a
+2024-10-04 15:40:58,020 - INFO - Fetched PDB ID: 6v7b
+2024-10-04 15:41:03,022 - DEBUG - Removed all chains except Chain a for PDB ID: 6v7b
+2024-10-04 15:41:08,026 - INFO - Saved Chain a of PDB ID 6v7b to processed_pdbs/6v7ba.pdb
+2024-10-04 15:41:13,032 - DEBUG - Deleted PDB object 6v7b from PyMOL
+2024-10-04 15:41:18,036 - DEBUG - Processing PDB ID: 7c0q, Chain: A
+2024-10-04 15:41:18,037 - INFO - Fetched PDB ID: 7c0q
+2024-10-04 15:41:23,041 - DEBUG - Removed all chains except Chain A for PDB ID: 7c0q
+2024-10-04 15:41:28,047 - INFO - Saved Chain A of PDB ID 7c0q to processed_pdbs/7c0qA.pdb
+2024-10-04 15:41:33,052 - DEBUG - Deleted PDB object 7c0q from PyMOL
+2024-10-04 15:41:38,057 - DEBUG - Processing PDB ID: 5dbk, Chain: A
+2024-10-04 15:41:38,059 - INFO - Fetched PDB ID: 5dbk
+2024-10-04 15:41:43,065 - DEBUG - Removed all chains except Chain A for PDB ID: 5dbk
+2024-10-04 15:41:48,068 - INFO - Saved Chain A of PDB ID 5dbk to processed_pdbs/5dbkA.pdb
+2024-10-04 15:41:53,069 - DEBUG - Deleted PDB object 5dbk from PyMOL
+2024-10-04 15:41:58,071 - DEBUG - Processing PDB ID: 4cgu, Chain: A
+2024-10-04 15:41:58,073 - INFO - Fetched PDB ID: 4cgu
+2024-10-04 15:42:03,076 - DEBUG - Removed all chains except Chain A for PDB ID: 4cgu
+2024-10-04 15:42:08,082 - INFO - Saved Chain A of PDB ID 4cgu to processed_pdbs/4cguA.pdb
+2024-10-04 15:42:13,086 - DEBUG - Deleted PDB object 4cgu from PyMOL
+2024-10-04 15:42:18,091 - DEBUG - Processing PDB ID: 2qeu, Chain: B
+2024-10-04 15:42:18,091 - INFO - Fetched PDB ID: 2qeu
+2024-10-04 15:42:23,095 - DEBUG - Removed all chains except Chain B for PDB ID: 2qeu
+2024-10-04 15:42:28,097 - INFO - Saved Chain B of PDB ID 2qeu to processed_pdbs/2qeuB.pdb
+2024-10-04 15:42:33,103 - DEBUG - Deleted PDB object 2qeu from PyMOL
+2024-10-04 15:42:38,105 - DEBUG - Processing PDB ID: 5xw7, Chain: C
+2024-10-04 15:42:38,105 - INFO - Fetched PDB ID: 5xw7
+2024-10-04 15:42:43,110 - DEBUG - Removed all chains except Chain C for PDB ID: 5xw7
+2024-10-04 15:42:48,116 - INFO - Saved Chain C of PDB ID 5xw7 to processed_pdbs/5xw7C.pdb
+2024-10-04 15:42:53,121 - DEBUG - Deleted PDB object 5xw7 from PyMOL
+2024-10-04 15:42:58,127 - DEBUG - Processing PDB ID: 7zhm, Chain: C
+2024-10-04 15:42:58,128 - INFO - Fetched PDB ID: 7zhm
+2024-10-04 15:43:03,132 - DEBUG - Removed all chains except Chain C for PDB ID: 7zhm
+2024-10-04 15:43:08,135 - INFO - Saved Chain C of PDB ID 7zhm to processed_pdbs/7zhmC.pdb
+2024-10-04 15:43:13,137 - DEBUG - Deleted PDB object 7zhm from PyMOL
+2024-10-04 15:43:18,139 - DEBUG - Processing PDB ID: 6swu, Chain: A
+2024-10-04 15:43:18,140 - INFO - Fetched PDB ID: 6swu
+2024-10-04 15:43:23,144 - DEBUG - Removed all chains except Chain A for PDB ID: 6swu
+2024-10-04 15:43:28,146 - INFO - Saved Chain A of PDB ID 6swu to processed_pdbs/6swuA.pdb
+2024-10-04 15:43:33,150 - DEBUG - Deleted PDB object 6swu from PyMOL
+2024-10-04 15:43:38,157 - DEBUG - Processing PDB ID: 6swy, Chain: 9
+2024-10-04 15:43:38,158 - INFO - Fetched PDB ID: 6swy
+2024-10-04 15:43:43,159 - DEBUG - Removed all chains except Chain 9 for PDB ID: 6swy
+2024-10-04 15:43:48,165 - INFO - Saved Chain 9 of PDB ID 6swy to processed_pdbs/6swy9.pdb
+2024-10-04 15:43:53,167 - DEBUG - Deleted PDB object 6swy from PyMOL
+2024-10-04 15:43:58,170 - DEBUG - Processing PDB ID: 6h02, Chain: A
+2024-10-04 15:43:58,171 - INFO - Fetched PDB ID: 6h02
+2024-10-04 15:44:03,173 - DEBUG - Removed all chains except Chain A for PDB ID: 6h02
+2024-10-04 15:44:08,179 - INFO - Saved Chain A of PDB ID 6h02 to processed_pdbs/6h02A.pdb
+2024-10-04 15:44:13,182 - DEBUG - Deleted PDB object 6h02 from PyMOL
+2024-10-04 15:44:18,188 - DEBUG - Processing PDB ID: 8sxf, Chain: C
+2024-10-04 15:44:18,189 - INFO - Fetched PDB ID: 8sxf
+2024-10-04 15:44:23,193 - DEBUG - Removed all chains except Chain C for PDB ID: 8sxf
+2024-10-04 15:44:28,199 - INFO - Saved Chain C of PDB ID 8sxf to processed_pdbs/8sxfC.pdb
+2024-10-04 15:44:33,202 - DEBUG - Deleted PDB object 8sxf from PyMOL
+2024-10-04 15:44:38,207 - DEBUG - Processing PDB ID: 6vu8, Chain: A
+2024-10-04 15:44:38,208 - INFO - Fetched PDB ID: 6vu8
+2024-10-04 15:44:43,213 - DEBUG - Removed all chains except Chain A for PDB ID: 6vu8
+2024-10-04 15:44:48,216 - INFO - Saved Chain A of PDB ID 6vu8 to processed_pdbs/6vu8A.pdb
+2024-10-04 15:44:53,222 - DEBUG - Deleted PDB object 6vu8 from PyMOL
+2024-10-04 15:44:58,227 - DEBUG - Processing PDB ID: 7naz, Chain: A
+2024-10-04 15:44:58,228 - INFO - Fetched PDB ID: 7naz
+2024-10-04 15:45:03,232 - DEBUG - Removed all chains except Chain A for PDB ID: 7naz
+2024-10-04 15:45:08,237 - INFO - Saved Chain A of PDB ID 7naz to processed_pdbs/7nazA.pdb
+2024-10-04 15:45:13,242 - DEBUG - Deleted PDB object 7naz from PyMOL
+2024-10-04 15:45:18,247 - DEBUG - Processing PDB ID: 5cwd, Chain: A
+2024-10-04 15:45:18,248 - INFO - Fetched PDB ID: 5cwd
+2024-10-04 15:45:23,252 - DEBUG - Removed all chains except Chain A for PDB ID: 5cwd
+2024-10-04 15:45:28,257 - INFO - Saved Chain A of PDB ID 5cwd to processed_pdbs/5cwdA.pdb
+2024-10-04 15:45:33,264 - DEBUG - Deleted PDB object 5cwd from PyMOL
+2024-10-04 15:45:38,267 - DEBUG - Processing PDB ID: 5tqb, Chain: B
+2024-10-04 15:45:38,270 - INFO - Fetched PDB ID: 5tqb
+2024-10-04 15:45:43,279 - DEBUG - Removed all chains except Chain B for PDB ID: 5tqb
+2024-10-04 15:45:48,286 - INFO - Saved Chain B of PDB ID 5tqb to processed_pdbs/5tqbB.pdb
+2024-10-04 15:45:53,288 - DEBUG - Deleted PDB object 5tqb from PyMOL
+2024-10-04 15:45:58,291 - DEBUG - Processing PDB ID: 6igx, Chain: D
+2024-10-04 15:45:58,292 - INFO - Fetched PDB ID: 6igx
+2024-10-04 15:46:03,297 - DEBUG - Removed all chains except Chain D for PDB ID: 6igx
+2024-10-04 15:46:08,300 - INFO - Saved Chain D of PDB ID 6igx to processed_pdbs/6igxD.pdb
+2024-10-04 15:46:13,302 - DEBUG - Deleted PDB object 6igx from PyMOL
+2024-10-04 15:46:18,307 - DEBUG - Processing PDB ID: 3sz7, Chain: A
+2024-10-04 15:46:18,308 - INFO - Fetched PDB ID: 3sz7
+2024-10-04 15:46:23,317 - DEBUG - Removed all chains except Chain A for PDB ID: 3sz7
+2024-10-04 15:46:28,324 - INFO - Saved Chain A of PDB ID 3sz7 to processed_pdbs/3sz7A.pdb
+2024-10-04 15:46:33,327 - DEBUG - Deleted PDB object 3sz7 from PyMOL
+2024-10-04 15:46:38,332 - DEBUG - Processing PDB ID: 5dn7, Chain: A
+2024-10-04 15:46:38,334 - INFO - Fetched PDB ID: 5dn7
+2024-10-04 15:46:43,335 - DEBUG - Removed all chains except Chain A for PDB ID: 5dn7
+2024-10-04 15:46:48,338 - INFO - Saved Chain A of PDB ID 5dn7 to processed_pdbs/5dn7A.pdb
+2024-10-04 15:46:53,343 - DEBUG - Deleted PDB object 5dn7 from PyMOL
+2024-10-04 15:46:58,347 - DEBUG - Processing PDB ID: 5fu7, Chain: A
+2024-10-04 15:46:58,348 - INFO - Fetched PDB ID: 5fu7
+2024-10-04 15:47:03,349 - DEBUG - Removed all chains except Chain A for PDB ID: 5fu7
+2024-10-04 15:47:08,352 - INFO - Saved Chain A of PDB ID 5fu7 to processed_pdbs/5fu7A.pdb
+2024-10-04 15:47:13,356 - DEBUG - Deleted PDB object 5fu7 from PyMOL
+2024-10-04 15:47:18,363 - DEBUG - Processing PDB ID: 6hd5, Chain: t
+2024-10-04 15:47:18,365 - INFO - Fetched PDB ID: 6hd5
+2024-10-04 15:47:23,367 - DEBUG - Removed all chains except Chain t for PDB ID: 6hd5
+2024-10-04 15:47:28,373 - INFO - Saved Chain t of PDB ID 6hd5 to processed_pdbs/6hd5t.pdb
+2024-10-04 15:47:33,378 - DEBUG - Deleted PDB object 6hd5 from PyMOL
+2024-10-04 15:47:38,381 - DEBUG - Processing PDB ID: 4cr2, Chain: T
+2024-10-04 15:47:38,382 - INFO - Fetched PDB ID: 4cr2
+2024-10-04 15:47:43,383 - DEBUG - Removed all chains except Chain T for PDB ID: 4cr2
+2024-10-04 15:47:48,386 - INFO - Saved Chain T of PDB ID 4cr2 to processed_pdbs/4cr2T.pdb
+2024-10-04 15:47:53,392 - DEBUG - Deleted PDB object 4cr2 from PyMOL
+2024-10-04 15:47:58,394 - DEBUG - Processing PDB ID: 5i9d, Chain: A
+2024-10-04 15:47:58,396 - INFO - Fetched PDB ID: 5i9d
+2024-10-04 15:48:03,402 - DEBUG - Removed all chains except Chain A for PDB ID: 5i9d
+2024-10-04 15:48:08,404 - INFO - Saved Chain A of PDB ID 5i9d to processed_pdbs/5i9dA.pdb
+2024-10-04 15:48:13,408 - DEBUG - Deleted PDB object 5i9d from PyMOL
+2024-10-04 15:48:18,410 - DEBUG - Processing PDB ID: 2y4u, Chain: A
+2024-10-04 15:48:18,412 - INFO - Fetched PDB ID: 2y4u
+2024-10-04 15:48:23,416 - DEBUG - Removed all chains except Chain A for PDB ID: 2y4u
+2024-10-04 15:48:28,422 - INFO - Saved Chain A of PDB ID 2y4u to processed_pdbs/2y4uA.pdb
+2024-10-04 15:48:33,427 - DEBUG - Deleted PDB object 2y4u from PyMOL
+2024-10-04 15:48:38,432 - DEBUG - Processing PDB ID: 7udk, Chain: A
+2024-10-04 15:48:38,434 - INFO - Fetched PDB ID: 7udk
+2024-10-04 15:48:43,438 - DEBUG - Removed all chains except Chain A for PDB ID: 7udk
+2024-10-04 15:48:48,443 - INFO - Saved Chain A of PDB ID 7udk to processed_pdbs/7udkA.pdb
+2024-10-04 15:48:53,445 - DEBUG - Deleted PDB object 7udk from PyMOL
+2024-10-04 15:48:58,451 - DEBUG - Processing PDB ID: 5f5t, Chain: A
+2024-10-04 15:48:58,452 - INFO - Fetched PDB ID: 5f5t
+2024-10-04 15:49:03,456 - DEBUG - Removed all chains except Chain A for PDB ID: 5f5t
+2024-10-04 15:49:08,462 - INFO - Saved Chain A of PDB ID 5f5t to processed_pdbs/5f5tA.pdb
+2024-10-04 15:49:13,467 - DEBUG - Deleted PDB object 5f5t from PyMOL
+2024-10-04 15:49:18,473 - DEBUG - Processing PDB ID: 5mpd, Chain: Q
+2024-10-04 15:49:18,475 - INFO - Fetched PDB ID: 5mpd
+2024-10-04 15:49:23,480 - DEBUG - Removed all chains except Chain Q for PDB ID: 5mpd
+2024-10-04 15:49:28,482 - INFO - Saved Chain Q of PDB ID 5mpd to processed_pdbs/5mpdQ.pdb
+2024-10-04 15:49:33,483 - DEBUG - Deleted PDB object 5mpd from PyMOL
+2024-10-04 15:49:38,488 - DEBUG - Processing PDB ID: 5edl, Chain: A
+2024-10-04 15:49:38,489 - INFO - Fetched PDB ID: 5edl
+2024-10-04 15:49:43,493 - DEBUG - Removed all chains except Chain A for PDB ID: 5edl
+2024-10-04 15:49:48,499 - INFO - Saved Chain A of PDB ID 5edl to processed_pdbs/5edlA.pdb
+2024-10-04 15:49:53,500 - DEBUG - Deleted PDB object 5edl from PyMOL
+2024-10-04 15:49:58,502 - DEBUG - Processing PDB ID: 7kpx, Chain: C
+2024-10-04 15:49:58,504 - INFO - Fetched PDB ID: 7kpx
+2024-10-04 15:50:03,509 - DEBUG - Removed all chains except Chain C for PDB ID: 7kpx
+2024-10-04 15:50:08,513 - INFO - Saved Chain C of PDB ID 7kpx to processed_pdbs/7kpxC.pdb
+2024-10-04 15:50:13,519 - DEBUG - Deleted PDB object 7kpx from PyMOL
+2024-10-04 15:50:18,524 - DEBUG - Processing PDB ID: 1qrj, Chain: A
+2024-10-04 15:50:18,525 - INFO - Fetched PDB ID: 1qrj
+2024-10-04 15:50:23,529 - DEBUG - Removed all chains except Chain A for PDB ID: 1qrj
+2024-10-04 15:50:28,536 - INFO - Saved Chain A of PDB ID 1qrj to processed_pdbs/1qrjA.pdb
+2024-10-04 15:50:33,538 - DEBUG - Deleted PDB object 1qrj from PyMOL
+2024-10-04 15:50:38,543 - DEBUG - Processing PDB ID: s001, Chain: A
+2024-10-04 15:50:38,545 - INFO - Fetched PDB ID: s001
+2024-10-04 15:50:43,550 - DEBUG - Removed all chains except Chain A for PDB ID: s001
+2024-10-04 15:50:48,556 - INFO - Saved Chain A of PDB ID s001 to processed_pdbs/s001A.pdb
+2024-10-04 15:50:53,564 - DEBUG - Deleted PDB object s001 from PyMOL
+2024-10-04 15:50:58,575 - ERROR - Error terminating PyMOL session: 'pymolPy3' object has no attribute 'quit'

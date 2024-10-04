@@ -1,0 +1,135 @@
+2024-10-04 16:36:27,440 - INFO - Unique PDB IDs extracted: ['6sb3', '6u2k', '6u2j', '6u23', '6u2w', '6sb4', '6sb1', '6sb5', '3nsj', '6fbm', '5own', '3t5o', '4e0s', '8b6u', '2qp2', '5ouq', '6cxo', '5oup', '2rd7', '2qqh', '3ojy', '3kk7', '7nyc', '7nyd', '4oej', '4ov8', '6dlw', '7pag', '5j67', '5j68', '6h04', '5j69', '4a5w', '5aoe', '5b5r']
+2024-10-04 16:36:27,458 - INFO - PyMOL initialized successfully.
+2024-10-04 16:36:27,471 - DEBUG - Created output directory: processed_pdbs
+2024-10-04 16:36:27,473 - DEBUG - Processing PDB ID: 6sb3, Chain: A
+2024-10-04 16:36:27,478 - INFO - Fetched PDB ID: 6sb3
+2024-10-04 16:36:32,480 - INFO - Saved CIF for PDB ID: 6sb3 to 6sb3.cif
+2024-10-04 16:36:37,486 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb3
+2024-10-04 16:36:42,489 - INFO - Saved Chain A of PDB ID 6sb3 to processed_pdbs/6sb3A.pdb
+2024-10-04 16:36:47,494 - DEBUG - Deleted PDB object 6sb3 from PyMOL
+2024-10-04 16:36:52,495 - DEBUG - Processing PDB ID: 6u2k, Chain: B
+2024-10-04 16:36:52,496 - INFO - Fetched PDB ID: 6u2k
+2024-10-04 16:36:57,500 - INFO - Saved CIF for PDB ID: 6u2k to 6u2k.cif
+2024-10-04 16:37:02,502 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2k
+2024-10-04 16:37:07,508 - INFO - Saved Chain B of PDB ID 6u2k to processed_pdbs/6u2kB.pdb
+2024-10-04 16:37:12,514 - DEBUG - Deleted PDB object 6u2k from PyMOL
+2024-10-04 16:37:17,518 - DEBUG - Processing PDB ID: 6u2j, Chain: N
+2024-10-04 16:37:17,519 - INFO - Fetched PDB ID: 6u2j
+2024-10-04 16:37:22,524 - INFO - Saved CIF for PDB ID: 6u2j to 6u2j.cif
+2024-10-04 16:37:27,525 - DEBUG - Removed all chains except Chain N for PDB ID: 6u2j
+2024-10-04 16:37:32,528 - INFO - Saved Chain N of PDB ID 6u2j to processed_pdbs/6u2jN.pdb
+2024-10-04 16:37:37,530 - DEBUG - Deleted PDB object 6u2j from PyMOL
+2024-10-04 16:37:42,532 - DEBUG - Processing PDB ID: 6u23, Chain: M
+2024-10-04 16:37:42,533 - INFO - Fetched PDB ID: 6u23
+2024-10-04 16:37:47,538 - INFO - Saved CIF for PDB ID: 6u23 to 6u23.cif
+2024-10-04 16:37:52,544 - DEBUG - Removed all chains except Chain M for PDB ID: 6u23
+2024-10-04 16:37:57,547 - INFO - Saved Chain M of PDB ID 6u23 to processed_pdbs/6u23M.pdb
+2024-10-04 16:38:02,548 - DEBUG - Deleted PDB object 6u23 from PyMOL
+2024-10-04 16:38:07,551 - DEBUG - Processing PDB ID: 6u2w, Chain: B
+2024-10-04 16:38:07,552 - INFO - Fetched PDB ID: 6u2w
+2024-10-04 16:38:12,555 - INFO - Saved CIF for PDB ID: 6u2w to 6u2w.cif
+2024-10-04 16:38:17,560 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2w
+2024-10-04 16:38:22,566 - INFO - Saved Chain B of PDB ID 6u2w to processed_pdbs/6u2wB.pdb
+2024-10-04 16:38:27,572 - DEBUG - Deleted PDB object 6u2w from PyMOL
+2024-10-04 16:38:32,575 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-04 16:38:32,576 - INFO - Fetched PDB ID: 6sb4
+2024-10-04 16:38:37,582 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-04 16:38:42,588 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-04 16:38:47,591 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs/6sb4C.pdb
+2024-10-04 16:38:52,594 - DEBUG - Deleted PDB object 6sb4 from PyMOL
+2024-10-04 16:38:57,600 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-04 16:38:57,601 - INFO - Fetched PDB ID: 6sb1
+2024-10-04 16:39:02,604 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-04 16:39:07,609 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-04 16:39:12,615 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs/6sb1A.pdb
+2024-10-04 16:39:17,621 - DEBUG - Deleted PDB object 6sb1 from PyMOL
+2024-10-04 16:39:22,626 - DEBUG - Processing PDB ID: 6sb5, Chain: C
+2024-10-04 16:39:22,627 - INFO - Fetched PDB ID: 6sb5
+2024-10-04 16:39:27,630 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-04 16:39:32,636 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb5
+2024-10-04 16:39:37,640 - INFO - Saved Chain C of PDB ID 6sb5 to processed_pdbs/6sb5C.pdb
+2024-10-04 16:39:42,642 - DEBUG - Deleted PDB object 6sb5 from PyMOL
+2024-10-04 16:39:47,644 - DEBUG - Processing PDB ID: 3nsj, Chain: A
+2024-10-04 16:39:47,646 - INFO - Fetched PDB ID: 3nsj
+2024-10-04 16:39:52,650 - INFO - Saved CIF for PDB ID: 3nsj to 3nsj.cif
+2024-10-04 16:39:57,654 - DEBUG - Removed all chains except Chain A for PDB ID: 3nsj
+2024-10-04 16:40:02,660 - INFO - Saved Chain A of PDB ID 3nsj to processed_pdbs/3nsjA.pdb
+2024-10-04 16:40:07,663 - DEBUG - Deleted PDB object 3nsj from PyMOL
+2024-10-04 16:40:12,666 - DEBUG - Processing PDB ID: 6fbm, Chain: A
+2024-10-04 16:40:12,667 - INFO - Fetched PDB ID: 6fbm
+2024-10-04 16:40:17,671 - INFO - Saved CIF for PDB ID: 6fbm to 6fbm.cif
+2024-10-04 16:40:22,677 - DEBUG - Removed all chains except Chain A for PDB ID: 6fbm
+2024-10-04 16:40:27,683 - INFO - Saved Chain A of PDB ID 6fbm to processed_pdbs/6fbmA.pdb
+2024-10-04 16:40:32,689 - DEBUG - Deleted PDB object 6fbm from PyMOL
+2024-10-04 16:40:37,693 - DEBUG - Processing PDB ID: 5own, Chain: B
+2024-10-04 16:40:37,693 - INFO - Fetched PDB ID: 5own
+2024-10-04 16:40:42,696 - INFO - Saved CIF for PDB ID: 5own to 5own.cif
+2024-10-04 16:40:47,702 - DEBUG - Removed all chains except Chain B for PDB ID: 5own
+2024-10-04 16:40:52,704 - INFO - Saved Chain B of PDB ID 5own to processed_pdbs/5ownB.pdb
+2024-10-04 16:40:57,709 - DEBUG - Deleted PDB object 5own from PyMOL
+2024-10-04 16:41:02,710 - DEBUG - Processing PDB ID: 3t5o, Chain: A
+2024-10-04 16:41:02,712 - INFO - Fetched PDB ID: 3t5o
+2024-10-04 16:41:07,718 - INFO - Saved CIF for PDB ID: 3t5o to 3t5o.cif
+2024-10-04 16:41:12,719 - DEBUG - Removed all chains except Chain A for PDB ID: 3t5o
+2024-10-04 16:41:17,725 - INFO - Saved Chain A of PDB ID 3t5o to processed_pdbs/3t5oA.pdb
+2024-10-04 16:41:22,727 - DEBUG - Deleted PDB object 3t5o from PyMOL
+2024-10-04 16:41:27,729 - DEBUG - Processing PDB ID: 4e0s, Chain: B
+2024-10-04 16:41:27,731 - INFO - Fetched PDB ID: 4e0s
+2024-10-04 16:41:32,736 - INFO - Saved CIF for PDB ID: 4e0s to 4e0s.cif
+2024-10-04 16:41:37,740 - DEBUG - Removed all chains except Chain B for PDB ID: 4e0s
+2024-10-04 16:41:42,744 - INFO - Saved Chain B of PDB ID 4e0s to processed_pdbs/4e0sB.pdb
+2024-10-04 16:41:47,750 - DEBUG - Deleted PDB object 4e0s from PyMOL
+2024-10-04 16:41:52,755 - DEBUG - Processing PDB ID: 8b6u, Chain: A
+2024-10-04 16:41:52,756 - INFO - Fetched PDB ID: 8b6u
+2024-10-04 16:41:57,761 - INFO - Saved CIF for PDB ID: 8b6u to 8b6u.cif
+2024-10-04 16:42:02,766 - DEBUG - Removed all chains except Chain A for PDB ID: 8b6u
+2024-10-04 16:42:07,769 - INFO - Saved Chain A of PDB ID 8b6u to processed_pdbs/8b6uA.pdb
+2024-10-04 16:42:12,770 - DEBUG - Deleted PDB object 8b6u from PyMOL
+2024-10-04 16:42:17,776 - DEBUG - Processing PDB ID: 2qp2, Chain: A
+2024-10-04 16:42:17,778 - INFO - Fetched PDB ID: 2qp2
+2024-10-04 16:42:22,780 - INFO - Saved CIF for PDB ID: 2qp2 to 2qp2.cif
+2024-10-04 16:42:27,782 - DEBUG - Removed all chains except Chain A for PDB ID: 2qp2
+2024-10-04 16:42:32,787 - INFO - Saved Chain A of PDB ID 2qp2 to processed_pdbs/2qp2A.pdb
+2024-10-04 16:42:37,791 - DEBUG - Deleted PDB object 2qp2 from PyMOL
+2024-10-04 16:42:42,793 - DEBUG - Processing PDB ID: 5ouq, Chain: G
+2024-10-04 16:42:42,794 - INFO - Fetched PDB ID: 5ouq
+2024-10-04 16:42:47,796 - INFO - Saved CIF for PDB ID: 5ouq to 5ouq.cif
+2024-10-04 16:42:52,799 - DEBUG - Removed all chains except Chain G for PDB ID: 5ouq
+2024-10-04 16:42:57,801 - INFO - Saved Chain G of PDB ID 5ouq to processed_pdbs/5ouqG.pdb
+2024-10-04 16:43:02,807 - DEBUG - Deleted PDB object 5ouq from PyMOL
+2024-10-04 16:43:07,810 - DEBUG - Processing PDB ID: 6cxo, Chain: A
+2024-10-04 16:43:07,811 - INFO - Fetched PDB ID: 6cxo
+2024-10-04 16:43:12,818 - INFO - Saved CIF for PDB ID: 6cxo to 6cxo.cif
+2024-10-04 16:43:17,820 - DEBUG - Removed all chains except Chain A for PDB ID: 6cxo
+2024-10-04 16:43:22,822 - INFO - Saved Chain A of PDB ID 6cxo to processed_pdbs/6cxoA.pdb
+2024-10-04 16:43:27,823 - DEBUG - Deleted PDB object 6cxo from PyMOL
+2024-10-04 16:43:32,826 - DEBUG - Processing PDB ID: 5oup, Chain: A
+2024-10-04 16:43:32,827 - INFO - Fetched PDB ID: 5oup
+2024-10-04 16:43:37,830 - INFO - Saved CIF for PDB ID: 5oup to 5oup.cif
+2024-10-04 16:43:42,836 - DEBUG - Removed all chains except Chain A for PDB ID: 5oup
+2024-10-04 16:43:47,839 - INFO - Saved Chain A of PDB ID 5oup to processed_pdbs/5oupA.pdb
+2024-10-04 16:43:52,844 - DEBUG - Deleted PDB object 5oup from PyMOL
+2024-10-04 16:43:57,853 - DEBUG - Processing PDB ID: 2rd7, Chain: A
+2024-10-04 16:43:57,854 - INFO - Fetched PDB ID: 2rd7
+2024-10-04 16:44:02,860 - INFO - Saved CIF for PDB ID: 2rd7 to 2rd7.cif
+2024-10-04 16:44:07,866 - DEBUG - Removed all chains except Chain A for PDB ID: 2rd7
+2024-10-04 16:44:12,871 - INFO - Saved Chain A of PDB ID 2rd7 to processed_pdbs/2rd7A.pdb
+2024-10-04 16:44:17,875 - DEBUG - Deleted PDB object 2rd7 from PyMOL
+2024-10-04 16:44:22,880 - DEBUG - Processing PDB ID: 2qqh, Chain: A
+2024-10-04 16:44:22,881 - INFO - Fetched PDB ID: 2qqh
+2024-10-04 16:44:27,886 - INFO - Saved CIF for PDB ID: 2qqh to 2qqh.cif
+2024-10-04 16:44:32,887 - DEBUG - Removed all chains except Chain A for PDB ID: 2qqh
+2024-10-04 16:44:37,889 - INFO - Saved Chain A of PDB ID 2qqh to processed_pdbs/2qqhA.pdb
+2024-10-04 16:44:42,894 - DEBUG - Deleted PDB object 2qqh from PyMOL
+2024-10-04 16:44:47,899 - DEBUG - Processing PDB ID: 3ojy, Chain: B
+2024-10-04 16:44:47,900 - INFO - Fetched PDB ID: 3ojy
+2024-10-04 16:44:52,903 - INFO - Saved CIF for PDB ID: 3ojy to 3ojy.cif
+2024-10-04 16:44:57,907 - DEBUG - Removed all chains except Chain B for PDB ID: 3ojy
+2024-10-04 16:45:02,917 - INFO - Saved Chain B of PDB ID 3ojy to processed_pdbs/3ojyB.pdb
+2024-10-04 16:45:07,923 - DEBUG - Deleted PDB object 3ojy from PyMOL
+2024-10-04 16:45:12,925 - DEBUG - Processing PDB ID: 3kk7, Chain: A
+2024-10-04 16:45:12,927 - INFO - Fetched PDB ID: 3kk7
+2024-10-04 16:45:17,932 - INFO - Saved CIF for PDB ID: 3kk7 to 3kk7.cif
+2024-10-04 16:45:22,937 - DEBUG - Removed all chains except Chain A for PDB ID: 3kk7
+2024-10-04 16:45:27,940 - INFO - Saved Chain A of PDB ID 3kk7 to processed_pdbs/3kk7A.pdb
+2024-10-04 16:45:32,942 - DEBUG - Deleted PDB object 3kk7 from PyMOL
