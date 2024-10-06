@@ -127,7 +127,7 @@ def process_pdb_files(pm, pdb_chain_dict, output_directory):
             time.sleep(3)
             
             # Load the local PDB file
-            local_pdb_path = "/Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/6sb3a/6sb3a.pdb"
+            local_pdb_path = "/path/to/your/local_structure.pdb"
             load_local_pdb_command = f"load {local_pdb_path}, local_pdb"
             pm(load_local_pdb_command)
             logging.debug(f"Loaded local PDB file: {local_pdb_path} as 'local_pdb'")
