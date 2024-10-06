@@ -487,3 +487,1383 @@
 2024-10-04 15:50:48,556 - INFO - Saved Chain A of PDB ID s001 to processed_pdbs/s001A.pdb
 2024-10-04 15:50:53,564 - DEBUG - Deleted PDB object s001 from PyMOL
 2024-10-04 15:50:58,575 - ERROR - Error terminating PyMOL session: 'pymolPy3' object has no attribute 'quit'
+2024-10-06 11:38:20,460 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:38:20,468 - INFO - PyMOL initialized successfully.
+2024-10-06 11:38:20,468 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:38:20,469 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:38:20,469 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:38:25,473 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:38:30,476 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:38:35,481 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:38:40,486 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:38:45,490 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:38:50,490 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:38:55,493 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:39:00,496 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:39:00,496 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:39:05,500 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:39:10,505 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 11:39:15,508 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 11:39:20,511 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:39:25,516 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 11:39:30,520 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 11:39:35,523 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:39:40,524 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-06 11:39:40,525 - INFO - Fetched PDB ID: 6sb1
+2024-10-06 11:39:45,529 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-06 11:39:50,531 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-06 11:39:55,533 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs_top50/6sb1A.pdb
+2024-10-06 11:40:00,534 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:40:05,540 - INFO - Aligned 6sb1 with local_pdb
+2024-10-06 11:40:10,541 - INFO - Saved alignment image to 6sb1_A_alignment.png
+2024-10-06 11:40:15,544 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:40:20,544 - DEBUG - Processing PDB ID: 6u2j, Chain: M
+2024-10-06 11:40:20,545 - INFO - Fetched PDB ID: 6u2j
+2024-10-06 11:41:49,625 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:41:49,631 - INFO - PyMOL initialized successfully.
+2024-10-06 11:41:49,632 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:41:49,632 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:41:49,632 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:41:54,636 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:41:59,641 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:42:04,646 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:42:09,647 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:42:14,652 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:42:19,657 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:42:21,663 - DEBUG - Oriented the view
+2024-10-06 11:42:23,668 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:42:28,669 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:42:33,675 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:42:33,675 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:42:38,680 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:42:43,681 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 11:42:48,682 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 11:42:53,687 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:42:58,689 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 11:43:03,712 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:43:05,716 - DEBUG - Oriented the view
+2024-10-06 11:43:07,718 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 11:43:12,720 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:43:17,726 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-06 11:43:17,726 - INFO - Fetched PDB ID: 6sb1
+2024-10-06 11:43:22,728 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-06 11:43:27,730 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-06 11:43:32,734 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs_top50/6sb1A.pdb
+2024-10-06 11:43:37,736 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:43:42,739 - INFO - Aligned 6sb1 with local_pdb
+2024-10-06 11:43:47,742 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:43:49,747 - DEBUG - Oriented the view
+2024-10-06 11:43:51,752 - INFO - Saved alignment image to 6sb1_A_alignment.png
+2024-10-06 11:43:56,758 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:44:01,760 - DEBUG - Processing PDB ID: 6u2j, Chain: M
+2024-10-06 11:44:01,761 - INFO - Fetched PDB ID: 6u2j
+2024-10-06 11:44:06,762 - INFO - Saved CIF for PDB ID: 6u2j to 6u2j.cif
+2024-10-06 11:44:11,763 - DEBUG - Removed all chains except Chain M for PDB ID: 6u2j
+2024-10-06 11:44:16,767 - INFO - Saved Chain M of PDB ID 6u2j to processed_pdbs_top50/6u2jM.pdb
+2024-10-06 11:44:21,770 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:44:26,775 - INFO - Aligned 6u2j with local_pdb
+2024-10-06 11:44:31,780 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:44:33,785 - DEBUG - Oriented the view
+2024-10-06 11:44:35,790 - INFO - Saved alignment image to 6u2j_M_alignment.png
+2024-10-06 11:44:40,790 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:45:38,326 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:45:38,333 - INFO - PyMOL initialized successfully.
+2024-10-06 11:45:38,334 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:45:38,334 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:45:38,334 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:45:43,334 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:45:48,336 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:45:53,342 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:45:58,348 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:46:03,348 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:46:08,349 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:46:10,355 - DEBUG - Oriented the view
+2024-10-06 11:46:12,358 - DEBUG - Colored 6sb5 yellow
+2024-10-06 11:46:13,363 - DEBUG - Colored local_pdb green
+2024-10-06 11:46:14,368 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:46:19,374 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:46:24,378 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:46:24,378 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:46:29,383 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:46:34,387 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 11:46:39,389 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 11:46:44,389 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:46:49,390 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 11:46:54,395 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:46:56,399 - DEBUG - Oriented the view
+2024-10-06 11:46:58,403 - DEBUG - Colored 6sb4 yellow
+2024-10-06 11:46:59,408 - DEBUG - Colored local_pdb green
+2024-10-06 11:47:00,411 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 11:47:05,415 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:47:10,421 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-06 11:47:10,421 - INFO - Fetched PDB ID: 6sb1
+2024-10-06 11:47:15,424 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-06 11:47:20,482 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-06 11:47:45,022 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:47:45,029 - INFO - PyMOL initialized successfully.
+2024-10-06 11:47:45,030 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:47:45,030 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:47:45,030 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:47:50,035 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:47:55,038 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:48:00,040 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:48:05,041 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:48:10,043 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:48:15,044 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:48:17,047 - DEBUG - Oriented the view
+2024-10-06 11:48:19,053 - DEBUG - Colored 6sb5 yellow
+2024-10-06 11:48:20,058 - DEBUG - Colored local_pdb green
+2024-10-06 11:48:21,059 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:48:26,063 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:48:31,067 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:48:31,067 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:48:36,067 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:49:02,010 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:49:02,015 - INFO - PyMOL initialized successfully.
+2024-10-06 11:49:02,016 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:49:02,016 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:49:02,016 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:49:07,018 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:49:12,023 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:49:17,024 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:49:22,027 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:49:27,028 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:49:32,029 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:49:34,029 - DEBUG - Oriented the view
+2024-10-06 11:49:36,030 - DEBUG - Colored 6sb5 yellow
+2024-10-06 11:49:37,034 - DEBUG - Colored local_pdb green
+2024-10-06 11:49:38,035 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:49:43,038 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:49:48,041 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:49:48,041 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:49:53,046 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:49:58,051 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 11:50:03,056 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 11:50:08,058 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:50:13,062 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 11:50:18,064 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:50:20,067 - DEBUG - Oriented the view
+2024-10-06 11:50:22,071 - DEBUG - Colored 6sb4 yellow
+2024-10-06 11:50:23,074 - DEBUG - Colored local_pdb green
+2024-10-06 11:50:24,078 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 11:50:29,080 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:50:43,349 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:50:43,355 - INFO - PyMOL initialized successfully.
+2024-10-06 11:50:43,356 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:50:43,356 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:50:43,356 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:50:46,360 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:50:51,364 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:50:54,368 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:50:57,369 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:51:00,375 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:51:03,380 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:51:08,383 - DEBUG - Oriented the view
+2024-10-06 11:51:10,388 - DEBUG - Colored 6sb5 yellow
+2024-10-06 11:51:11,394 - DEBUG - Colored local_pdb green
+2024-10-06 11:51:12,398 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:51:14,403 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:51:16,408 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:51:16,408 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:51:19,413 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:51:24,416 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 11:51:27,419 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 11:51:30,422 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:51:33,423 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 11:51:36,424 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:51:41,427 - DEBUG - Oriented the view
+2024-10-06 11:51:43,428 - DEBUG - Colored 6sb4 yellow
+2024-10-06 11:51:44,429 - DEBUG - Colored local_pdb green
+2024-10-06 11:51:45,430 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 11:51:47,432 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:51:49,437 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-06 11:51:49,438 - INFO - Fetched PDB ID: 6sb1
+2024-10-06 11:51:52,439 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-06 11:51:57,440 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-06 11:52:00,441 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs_top50/6sb1A.pdb
+2024-10-06 11:52:03,446 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:52:06,451 - INFO - Aligned 6sb1 with local_pdb
+2024-10-06 11:52:09,456 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:52:14,459 - DEBUG - Oriented the view
+2024-10-06 11:52:16,462 - DEBUG - Colored 6sb1 yellow
+2024-10-06 11:52:17,466 - DEBUG - Colored local_pdb green
+2024-10-06 11:52:18,469 - INFO - Saved alignment image to 6sb1_A_alignment.png
+2024-10-06 11:52:20,471 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:52:22,477 - DEBUG - Processing PDB ID: 6u2j, Chain: M
+2024-10-06 11:52:22,477 - INFO - Fetched PDB ID: 6u2j
+2024-10-06 11:52:25,477 - INFO - Saved CIF for PDB ID: 6u2j to 6u2j.cif
+2024-10-06 11:52:30,479 - DEBUG - Removed all chains except Chain M for PDB ID: 6u2j
+2024-10-06 11:52:33,484 - INFO - Saved Chain M of PDB ID 6u2j to processed_pdbs_top50/6u2jM.pdb
+2024-10-06 11:52:36,485 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:52:39,487 - INFO - Aligned 6u2j with local_pdb
+2024-10-06 11:52:42,488 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:52:47,492 - DEBUG - Oriented the view
+2024-10-06 11:52:49,498 - DEBUG - Colored 6u2j yellow
+2024-10-06 11:52:50,503 - DEBUG - Colored local_pdb green
+2024-10-06 11:52:51,505 - INFO - Saved alignment image to 6u2j_M_alignment.png
+2024-10-06 11:52:53,510 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:52:55,514 - DEBUG - Processing PDB ID: 6u2k, Chain: B
+2024-10-06 11:52:55,514 - INFO - Fetched PDB ID: 6u2k
+2024-10-06 11:52:58,517 - INFO - Saved CIF for PDB ID: 6u2k to 6u2k.cif
+2024-10-06 11:53:03,518 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2k
+2024-10-06 11:53:06,523 - INFO - Saved Chain B of PDB ID 6u2k to processed_pdbs_top50/6u2kB.pdb
+2024-10-06 11:53:09,524 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:53:12,524 - INFO - Aligned 6u2k with local_pdb
+2024-10-06 11:53:15,531 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:53:20,532 - DEBUG - Oriented the view
+2024-10-06 11:53:22,535 - DEBUG - Colored 6u2k yellow
+2024-10-06 11:53:23,537 - DEBUG - Colored local_pdb green
+2024-10-06 11:53:24,541 - INFO - Saved alignment image to 6u2k_B_alignment.png
+2024-10-06 11:53:26,544 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:53:28,547 - DEBUG - Processing PDB ID: 6sb3, Chain: A
+2024-10-06 11:53:28,548 - INFO - Fetched PDB ID: 6sb3
+2024-10-06 11:53:31,551 - INFO - Saved CIF for PDB ID: 6sb3 to 6sb3.cif
+2024-10-06 11:53:36,556 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb3
+2024-10-06 11:53:39,561 - INFO - Saved Chain A of PDB ID 6sb3 to processed_pdbs_top50/6sb3A.pdb
+2024-10-06 11:53:42,563 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:53:45,569 - INFO - Aligned 6sb3 with local_pdb
+2024-10-06 11:53:48,572 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:53:53,577 - DEBUG - Oriented the view
+2024-10-06 11:53:55,579 - DEBUG - Colored 6sb3 yellow
+2024-10-06 11:53:56,579 - DEBUG - Colored local_pdb green
+2024-10-06 11:53:57,580 - INFO - Saved alignment image to 6sb3_A_alignment.png
+2024-10-06 11:53:59,586 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:54:01,591 - DEBUG - Processing PDB ID: 6u23, Chain: A
+2024-10-06 11:54:01,591 - INFO - Fetched PDB ID: 6u23
+2024-10-06 11:54:04,594 - INFO - Saved CIF for PDB ID: 6u23 to 6u23.cif
+2024-10-06 11:54:09,597 - DEBUG - Removed all chains except Chain A for PDB ID: 6u23
+2024-10-06 11:54:12,602 - INFO - Saved Chain A of PDB ID 6u23 to processed_pdbs_top50/6u23A.pdb
+2024-10-06 11:55:34,275 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 11:55:34,280 - INFO - PyMOL initialized successfully.
+2024-10-06 11:55:34,281 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 11:55:34,281 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 11:55:34,281 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 11:55:37,287 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 11:55:42,292 - DEBUG - Removed solvent molecules
+2024-10-06 11:55:45,297 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 11:55:48,301 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 11:55:51,302 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:55:54,305 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 11:55:57,308 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:56:02,314 - DEBUG - Oriented the view
+2024-10-06 11:56:04,319 - DEBUG - Colored 6sb5 yellow
+2024-10-06 11:56:05,324 - DEBUG - Colored local_pdb green
+2024-10-06 11:56:06,329 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 11:56:08,334 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:56:10,337 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 11:56:10,337 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 11:56:13,340 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 11:56:18,345 - DEBUG - Removed solvent molecules
+2024-10-06 11:56:21,350 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 11:56:24,351 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 11:56:27,357 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:56:30,361 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 11:56:37,595 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:56:42,600 - DEBUG - Oriented the view
+2024-10-06 11:56:44,604 - DEBUG - Colored 6sb4 yellow
+2024-10-06 11:56:45,608 - DEBUG - Colored local_pdb green
+2024-10-06 11:56:46,610 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 11:56:48,614 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:56:50,619 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-06 11:56:50,619 - INFO - Fetched PDB ID: 6sb1
+2024-10-06 11:56:53,620 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-06 11:56:58,626 - DEBUG - Removed solvent molecules
+2024-10-06 11:57:01,630 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-06 11:57:04,630 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs_top50/6sb1A.pdb
+2024-10-06 11:57:07,631 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:57:10,636 - INFO - Aligned 6sb1 with local_pdb
+2024-10-06 11:57:13,637 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:57:18,641 - DEBUG - Oriented the view
+2024-10-06 11:57:20,643 - DEBUG - Colored 6sb1 yellow
+2024-10-06 11:57:21,648 - DEBUG - Colored local_pdb green
+2024-10-06 11:57:22,651 - INFO - Saved alignment image to 6sb1_A_alignment.png
+2024-10-06 11:57:24,652 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:57:26,652 - DEBUG - Processing PDB ID: 6u2j, Chain: M
+2024-10-06 11:57:26,653 - INFO - Fetched PDB ID: 6u2j
+2024-10-06 11:57:29,655 - INFO - Saved CIF for PDB ID: 6u2j to 6u2j.cif
+2024-10-06 11:57:34,659 - DEBUG - Removed solvent molecules
+2024-10-06 11:57:37,660 - DEBUG - Removed all chains except Chain M for PDB ID: 6u2j
+2024-10-06 11:57:40,665 - INFO - Saved Chain M of PDB ID 6u2j to processed_pdbs_top50/6u2jM.pdb
+2024-10-06 11:57:43,670 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:57:46,673 - INFO - Aligned 6u2j with local_pdb
+2024-10-06 11:57:49,679 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:57:54,680 - DEBUG - Oriented the view
+2024-10-06 11:57:56,681 - DEBUG - Colored 6u2j yellow
+2024-10-06 11:57:57,682 - DEBUG - Colored local_pdb green
+2024-10-06 11:57:58,685 - INFO - Saved alignment image to 6u2j_M_alignment.png
+2024-10-06 11:58:00,687 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:58:02,687 - DEBUG - Processing PDB ID: 6u2k, Chain: B
+2024-10-06 11:58:02,688 - INFO - Fetched PDB ID: 6u2k
+2024-10-06 11:58:05,693 - INFO - Saved CIF for PDB ID: 6u2k to 6u2k.cif
+2024-10-06 11:58:10,695 - DEBUG - Removed solvent molecules
+2024-10-06 11:58:13,700 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2k
+2024-10-06 11:58:16,701 - INFO - Saved Chain B of PDB ID 6u2k to processed_pdbs_top50/6u2kB.pdb
+2024-10-06 11:58:19,706 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:58:22,707 - INFO - Aligned 6u2k with local_pdb
+2024-10-06 11:58:25,712 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:58:30,714 - DEBUG - Oriented the view
+2024-10-06 11:58:32,719 - DEBUG - Colored 6u2k yellow
+2024-10-06 11:58:33,720 - DEBUG - Colored local_pdb green
+2024-10-06 11:58:34,721 - INFO - Saved alignment image to 6u2k_B_alignment.png
+2024-10-06 11:58:36,723 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:58:38,729 - DEBUG - Processing PDB ID: 6sb3, Chain: A
+2024-10-06 11:58:38,730 - INFO - Fetched PDB ID: 6sb3
+2024-10-06 11:58:41,730 - INFO - Saved CIF for PDB ID: 6sb3 to 6sb3.cif
+2024-10-06 11:58:46,735 - DEBUG - Removed solvent molecules
+2024-10-06 11:58:49,737 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb3
+2024-10-06 11:58:52,738 - INFO - Saved Chain A of PDB ID 6sb3 to processed_pdbs_top50/6sb3A.pdb
+2024-10-06 11:58:55,743 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:58:58,745 - INFO - Aligned 6sb3 with local_pdb
+2024-10-06 11:59:01,747 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:59:06,752 - DEBUG - Oriented the view
+2024-10-06 11:59:08,757 - DEBUG - Colored 6sb3 yellow
+2024-10-06 11:59:09,760 - DEBUG - Colored local_pdb green
+2024-10-06 11:59:10,765 - INFO - Saved alignment image to 6sb3_A_alignment.png
+2024-10-06 11:59:12,765 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:59:14,768 - DEBUG - Processing PDB ID: 6u23, Chain: A
+2024-10-06 11:59:14,768 - INFO - Fetched PDB ID: 6u23
+2024-10-06 11:59:17,769 - INFO - Saved CIF for PDB ID: 6u23 to 6u23.cif
+2024-10-06 11:59:22,774 - DEBUG - Removed solvent molecules
+2024-10-06 11:59:25,779 - DEBUG - Removed all chains except Chain A for PDB ID: 6u23
+2024-10-06 11:59:28,785 - INFO - Saved Chain A of PDB ID 6u23 to processed_pdbs_top50/6u23A.pdb
+2024-10-06 11:59:31,786 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 11:59:34,787 - INFO - Aligned 6u23 with local_pdb
+2024-10-06 11:59:37,788 - DEBUG - Zoomed to the aligned structures
+2024-10-06 11:59:42,789 - DEBUG - Oriented the view
+2024-10-06 11:59:44,794 - DEBUG - Colored 6u23 yellow
+2024-10-06 11:59:45,795 - DEBUG - Colored local_pdb green
+2024-10-06 11:59:46,797 - INFO - Saved alignment image to 6u23_A_alignment.png
+2024-10-06 11:59:48,798 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 11:59:50,801 - DEBUG - Processing PDB ID: 6u2w, Chain: B
+2024-10-06 11:59:50,801 - INFO - Fetched PDB ID: 6u2w
+2024-10-06 11:59:53,801 - INFO - Saved CIF for PDB ID: 6u2w to 6u2w.cif
+2024-10-06 11:59:58,802 - DEBUG - Removed solvent molecules
+2024-10-06 12:00:01,803 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2w
+2024-10-06 12:00:04,804 - INFO - Saved Chain B of PDB ID 6u2w to processed_pdbs_top50/6u2wB.pdb
+2024-10-06 12:00:07,807 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:00:10,807 - INFO - Aligned 6u2w with local_pdb
+2024-10-06 12:00:13,812 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:00:18,814 - DEBUG - Oriented the view
+2024-10-06 12:00:20,820 - DEBUG - Colored 6u2w yellow
+2024-10-06 12:00:21,824 - DEBUG - Colored local_pdb green
+2024-10-06 12:00:22,829 - INFO - Saved alignment image to 6u2w_B_alignment.png
+2024-10-06 12:00:24,835 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:00:26,839 - DEBUG - Processing PDB ID: 7nyd, Chain: D
+2024-10-06 12:00:26,839 - INFO - Fetched PDB ID: 7nyd
+2024-10-06 12:00:29,843 - INFO - Saved CIF for PDB ID: 7nyd to 7nyd.cif
+2024-10-06 12:00:34,846 - DEBUG - Removed solvent molecules
+2024-10-06 12:00:37,846 - DEBUG - Removed all chains except Chain D for PDB ID: 7nyd
+2024-10-06 12:00:40,848 - INFO - Saved Chain D of PDB ID 7nyd to processed_pdbs_top50/7nydD.pdb
+2024-10-06 12:00:43,852 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:00:46,855 - INFO - Aligned 7nyd with local_pdb
+2024-10-06 12:00:49,856 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:00:54,860 - DEBUG - Oriented the view
+2024-10-06 12:00:56,862 - DEBUG - Colored 7nyd yellow
+2024-10-06 12:00:57,868 - DEBUG - Colored local_pdb green
+2024-10-06 12:00:58,872 - INFO - Saved alignment image to 7nyd_D_alignment.png
+2024-10-06 12:01:00,875 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:01:02,879 - DEBUG - Processing PDB ID: 7nyc, Chain: D
+2024-10-06 12:01:02,880 - INFO - Fetched PDB ID: 7nyc
+2024-10-06 12:01:05,881 - INFO - Saved CIF for PDB ID: 7nyc to 7nyc.cif
+2024-10-06 12:01:10,885 - DEBUG - Removed solvent molecules
+2024-10-06 12:01:13,887 - DEBUG - Removed all chains except Chain D for PDB ID: 7nyc
+2024-10-06 12:01:16,896 - INFO - Saved Chain D of PDB ID 7nyc to processed_pdbs_top50/7nycD.pdb
+2024-10-06 12:01:19,901 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:01:22,907 - INFO - Aligned 7nyc with local_pdb
+2024-10-06 12:01:25,910 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:01:30,915 - DEBUG - Oriented the view
+2024-10-06 12:01:32,918 - DEBUG - Colored 7nyc yellow
+2024-10-06 12:01:33,921 - DEBUG - Colored local_pdb green
+2024-10-06 12:01:34,922 - INFO - Saved alignment image to 7nyc_D_alignment.png
+2024-10-06 12:01:36,925 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:01:38,929 - DEBUG - Processing PDB ID: 6h04, Chain: W
+2024-10-06 12:01:38,929 - INFO - Fetched PDB ID: 6h04
+2024-10-06 12:01:41,930 - INFO - Saved CIF for PDB ID: 6h04 to 6h04.cif
+2024-10-06 12:01:46,934 - DEBUG - Removed solvent molecules
+2024-10-06 12:01:49,936 - DEBUG - Removed all chains except Chain W for PDB ID: 6h04
+2024-10-06 12:01:52,937 - INFO - Saved Chain W of PDB ID 6h04 to processed_pdbs_top50/6h04W.pdb
+2024-10-06 12:01:55,938 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:01:58,939 - INFO - Aligned 6h04 with local_pdb
+2024-10-06 12:02:01,939 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:02:06,944 - DEBUG - Oriented the view
+2024-10-06 12:02:08,949 - DEBUG - Colored 6h04 yellow
+2024-10-06 12:02:09,954 - DEBUG - Colored local_pdb green
+2024-10-06 12:02:10,957 - INFO - Saved alignment image to 6h04_W_alignment.png
+2024-10-06 12:02:12,957 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:02:14,962 - DEBUG - Processing PDB ID: 6dlw, Chain: M
+2024-10-06 12:02:14,962 - INFO - Fetched PDB ID: 6dlw
+2024-10-06 12:02:17,966 - INFO - Saved CIF for PDB ID: 6dlw to 6dlw.cif
+2024-10-06 12:02:22,970 - DEBUG - Removed solvent molecules
+2024-10-06 12:02:25,973 - DEBUG - Removed all chains except Chain M for PDB ID: 6dlw
+2024-10-06 12:02:28,975 - INFO - Saved Chain M of PDB ID 6dlw to processed_pdbs_top50/6dlwM.pdb
+2024-10-06 12:02:31,979 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:02:34,981 - INFO - Aligned 6dlw with local_pdb
+2024-10-06 12:02:37,983 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:02:42,986 - DEBUG - Oriented the view
+2024-10-06 12:02:44,987 - DEBUG - Colored 6dlw yellow
+2024-10-06 12:02:45,988 - DEBUG - Colored local_pdb green
+2024-10-06 12:02:46,988 - INFO - Saved alignment image to 6dlw_M_alignment.png
+2024-10-06 12:02:48,991 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:02:50,993 - DEBUG - Processing PDB ID: 7pag, Chain: A
+2024-10-06 12:02:50,993 - INFO - Fetched PDB ID: 7pag
+2024-10-06 12:02:53,998 - INFO - Saved CIF for PDB ID: 7pag to 7pag.cif
+2024-10-06 12:02:59,001 - DEBUG - Removed solvent molecules
+2024-10-06 12:03:02,006 - DEBUG - Removed all chains except Chain A for PDB ID: 7pag
+2024-10-06 12:03:05,010 - INFO - Saved Chain A of PDB ID 7pag to processed_pdbs_top50/7pagA.pdb
+2024-10-06 12:03:08,014 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:03:11,017 - INFO - Aligned 7pag with local_pdb
+2024-10-06 12:03:14,020 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:03:19,024 - DEBUG - Oriented the view
+2024-10-06 12:03:21,028 - DEBUG - Colored 7pag yellow
+2024-10-06 12:03:22,032 - DEBUG - Colored local_pdb green
+2024-10-06 12:03:23,036 - INFO - Saved alignment image to 7pag_A_alignment.png
+2024-10-06 12:03:25,041 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:03:27,043 - DEBUG - Processing PDB ID: 3nsj, Chain: A
+2024-10-06 12:03:27,043 - INFO - Fetched PDB ID: 3nsj
+2024-10-06 12:03:30,046 - INFO - Saved CIF for PDB ID: 3nsj to 3nsj.cif
+2024-10-06 12:03:35,048 - DEBUG - Removed solvent molecules
+2024-10-06 12:03:38,051 - DEBUG - Removed all chains except Chain A for PDB ID: 3nsj
+2024-10-06 12:03:41,054 - INFO - Saved Chain A of PDB ID 3nsj to processed_pdbs_top50/3nsjA.pdb
+2024-10-06 12:03:44,056 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:03:47,061 - INFO - Aligned 3nsj with local_pdb
+2024-10-06 12:03:50,064 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:03:55,069 - DEBUG - Oriented the view
+2024-10-06 12:03:57,070 - DEBUG - Colored 3nsj yellow
+2024-10-06 12:03:58,072 - DEBUG - Colored local_pdb green
+2024-10-06 12:03:59,077 - INFO - Saved alignment image to 3nsj_A_alignment.png
+2024-10-06 12:04:01,082 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:04:03,086 - DEBUG - Processing PDB ID: 2qqh, Chain: A
+2024-10-06 12:04:03,087 - INFO - Fetched PDB ID: 2qqh
+2024-10-06 12:04:06,092 - INFO - Saved CIF for PDB ID: 2qqh to 2qqh.cif
+2024-10-06 12:04:11,096 - DEBUG - Removed solvent molecules
+2024-10-06 12:04:14,097 - DEBUG - Removed all chains except Chain A for PDB ID: 2qqh
+2024-10-06 12:04:17,101 - INFO - Saved Chain A of PDB ID 2qqh to processed_pdbs_top50/2qqhA.pdb
+2024-10-06 12:04:20,103 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:04:23,106 - INFO - Aligned 2qqh with local_pdb
+2024-10-06 12:04:26,108 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:04:31,113 - DEBUG - Oriented the view
+2024-10-06 12:04:33,119 - DEBUG - Colored 2qqh yellow
+2024-10-06 12:04:34,121 - DEBUG - Colored local_pdb green
+2024-10-06 12:04:35,121 - INFO - Saved alignment image to 2qqh_A_alignment.png
+2024-10-06 12:04:37,123 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:04:39,128 - DEBUG - Processing PDB ID: 2rd7, Chain: A
+2024-10-06 12:04:39,128 - INFO - Fetched PDB ID: 2rd7
+2024-10-06 12:04:42,129 - INFO - Saved CIF for PDB ID: 2rd7 to 2rd7.cif
+2024-10-06 12:04:47,134 - DEBUG - Removed solvent molecules
+2024-10-06 12:04:50,138 - DEBUG - Removed all chains except Chain A for PDB ID: 2rd7
+2024-10-06 12:04:53,139 - INFO - Saved Chain A of PDB ID 2rd7 to processed_pdbs_top50/2rd7A.pdb
+2024-10-06 12:04:56,144 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:04:59,148 - INFO - Aligned 2rd7 with local_pdb
+2024-10-06 12:05:02,153 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:05:07,153 - DEBUG - Oriented the view
+2024-10-06 12:05:09,157 - DEBUG - Colored 2rd7 yellow
+2024-10-06 12:05:10,161 - DEBUG - Colored local_pdb green
+2024-10-06 12:05:11,165 - INFO - Saved alignment image to 2rd7_A_alignment.png
+2024-10-06 12:05:13,170 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:05:15,171 - DEBUG - Processing PDB ID: 3ojy, Chain: A
+2024-10-06 12:05:15,171 - INFO - Fetched PDB ID: 3ojy
+2024-10-06 12:05:18,173 - INFO - Saved CIF for PDB ID: 3ojy to 3ojy.cif
+2024-10-06 12:05:23,178 - DEBUG - Removed solvent molecules
+2024-10-06 12:05:26,180 - DEBUG - Removed all chains except Chain A for PDB ID: 3ojy
+2024-10-06 12:05:29,181 - INFO - Saved Chain A of PDB ID 3ojy to processed_pdbs_top50/3ojyA.pdb
+2024-10-06 12:05:32,182 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:05:35,183 - INFO - Aligned 3ojy with local_pdb
+2024-10-06 12:05:38,189 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:05:43,193 - DEBUG - Oriented the view
+2024-10-06 12:05:45,199 - DEBUG - Colored 3ojy yellow
+2024-10-06 12:05:46,204 - DEBUG - Colored local_pdb green
+2024-10-06 12:05:47,205 - INFO - Saved alignment image to 3ojy_A_alignment.png
+2024-10-06 12:05:49,209 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:05:51,212 - DEBUG - Processing PDB ID: 5j67, Chain: C
+2024-10-06 12:05:51,212 - INFO - Fetched PDB ID: 5j67
+2024-10-06 12:05:54,213 - INFO - Saved CIF for PDB ID: 5j67 to 5j67.cif
+2024-10-06 12:05:59,215 - DEBUG - Removed solvent molecules
+2024-10-06 12:06:02,215 - DEBUG - Removed all chains except Chain C for PDB ID: 5j67
+2024-10-06 12:06:05,216 - INFO - Saved Chain C of PDB ID 5j67 to processed_pdbs_top50/5j67C.pdb
+2024-10-06 12:06:08,216 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:06:11,218 - INFO - Aligned 5j67 with local_pdb
+2024-10-06 12:06:14,220 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:06:19,226 - DEBUG - Oriented the view
+2024-10-06 12:06:21,231 - DEBUG - Colored 5j67 yellow
+2024-10-06 12:06:22,234 - DEBUG - Colored local_pdb green
+2024-10-06 12:06:23,238 - INFO - Saved alignment image to 5j67_C_alignment.png
+2024-10-06 12:06:25,241 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:06:27,245 - DEBUG - Processing PDB ID: 5j69, Chain: B
+2024-10-06 12:06:27,245 - INFO - Fetched PDB ID: 5j69
+2024-10-06 12:06:30,247 - INFO - Saved CIF for PDB ID: 5j69 to 5j69.cif
+2024-10-06 12:06:35,252 - DEBUG - Removed solvent molecules
+2024-10-06 12:06:38,252 - DEBUG - Removed all chains except Chain B for PDB ID: 5j69
+2024-10-06 12:06:41,257 - INFO - Saved Chain B of PDB ID 5j69 to processed_pdbs_top50/5j69B.pdb
+2024-10-06 12:06:44,262 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:06:47,267 - INFO - Aligned 5j69 with local_pdb
+2024-10-06 12:06:50,269 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:06:55,270 - DEBUG - Oriented the view
+2024-10-06 12:06:57,271 - DEBUG - Colored 5j69 yellow
+2024-10-06 12:06:58,273 - DEBUG - Colored local_pdb green
+2024-10-06 12:06:59,278 - INFO - Saved alignment image to 5j69_B_alignment.png
+2024-10-06 12:07:01,281 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:07:03,286 - DEBUG - Processing PDB ID: 5j68, Chain: A
+2024-10-06 12:07:03,286 - INFO - Fetched PDB ID: 5j68
+2024-10-06 12:07:06,289 - INFO - Saved CIF for PDB ID: 5j68 to 5j68.cif
+2024-10-06 12:07:11,291 - DEBUG - Removed solvent molecules
+2024-10-06 12:07:14,296 - DEBUG - Removed all chains except Chain A for PDB ID: 5j68
+2024-10-06 12:07:17,298 - INFO - Saved Chain A of PDB ID 5j68 to processed_pdbs_top50/5j68A.pdb
+2024-10-06 12:07:20,316 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:07:23,328 - INFO - Aligned 5j68 with local_pdb
+2024-10-06 12:07:26,333 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:07:31,334 - DEBUG - Oriented the view
+2024-10-06 12:07:33,339 - DEBUG - Colored 5j68 yellow
+2024-10-06 12:07:34,341 - DEBUG - Colored local_pdb green
+2024-10-06 12:07:35,341 - INFO - Saved alignment image to 5j68_A_alignment.png
+2024-10-06 12:07:37,343 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:07:39,349 - DEBUG - Processing PDB ID: 6fbm, Chain: A
+2024-10-06 12:07:39,349 - INFO - Fetched PDB ID: 6fbm
+2024-10-06 12:07:42,354 - INFO - Saved CIF for PDB ID: 6fbm to 6fbm.cif
+2024-10-06 12:07:47,366 - DEBUG - Removed solvent molecules
+2024-10-06 12:07:50,373 - DEBUG - Removed all chains except Chain A for PDB ID: 6fbm
+2024-10-06 12:07:53,378 - INFO - Saved Chain A of PDB ID 6fbm to processed_pdbs_top50/6fbmA.pdb
+2024-10-06 12:07:56,398 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:07:59,402 - INFO - Aligned 6fbm with local_pdb
+2024-10-06 12:08:02,404 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:08:07,408 - DEBUG - Oriented the view
+2024-10-06 12:08:09,413 - DEBUG - Colored 6fbm yellow
+2024-10-06 12:08:10,414 - DEBUG - Colored local_pdb green
+2024-10-06 12:08:11,415 - INFO - Saved alignment image to 6fbm_A_alignment.png
+2024-10-06 12:08:13,419 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:08:15,423 - DEBUG - Processing PDB ID: 3t5o, Chain: A
+2024-10-06 12:08:15,424 - INFO - Fetched PDB ID: 3t5o
+2024-10-06 12:08:18,427 - INFO - Saved CIF for PDB ID: 3t5o to 3t5o.cif
+2024-10-06 12:08:23,429 - DEBUG - Removed solvent molecules
+2024-10-06 12:08:26,430 - DEBUG - Removed all chains except Chain A for PDB ID: 3t5o
+2024-10-06 12:08:29,433 - INFO - Saved Chain A of PDB ID 3t5o to processed_pdbs_top50/3t5oA.pdb
+2024-10-06 12:08:32,436 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:08:35,438 - INFO - Aligned 3t5o with local_pdb
+2024-10-06 12:08:38,444 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:08:43,449 - DEBUG - Oriented the view
+2024-10-06 12:08:45,454 - DEBUG - Colored 3t5o yellow
+2024-10-06 12:08:46,456 - DEBUG - Colored local_pdb green
+2024-10-06 12:08:47,462 - INFO - Saved alignment image to 3t5o_A_alignment.png
+2024-10-06 12:08:49,465 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:08:51,470 - DEBUG - Processing PDB ID: 5ouq, Chain: D
+2024-10-06 12:08:51,471 - INFO - Fetched PDB ID: 5ouq
+2024-10-06 12:08:54,473 - INFO - Saved CIF for PDB ID: 5ouq to 5ouq.cif
+2024-10-06 12:08:59,477 - DEBUG - Removed solvent molecules
+2024-10-06 12:09:02,482 - DEBUG - Removed all chains except Chain D for PDB ID: 5ouq
+2024-10-06 12:09:05,482 - INFO - Saved Chain D of PDB ID 5ouq to processed_pdbs_top50/5ouqD.pdb
+2024-10-06 12:09:08,484 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:09:11,486 - INFO - Aligned 5ouq with local_pdb
+2024-10-06 12:10:21,340 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 12:10:21,355 - INFO - PyMOL initialized successfully.
+2024-10-06 12:10:21,356 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 12:10:21,356 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 12:10:21,356 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 12:10:24,358 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 12:10:29,363 - DEBUG - Removed solvent molecules
+2024-10-06 12:10:32,365 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 12:10:35,366 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 12:10:57,130 - INFO - Unique PDB IDs extracted (limited to top 50): ['6sb5', '6sb4', '6sb1', '6u2j', '6u2k', '6sb3', '6u23', '6u2w', '7nyd', '7nyc', '6h04', '6dlw', '7pag', '3nsj', '2qqh', '2rd7', '3ojy', '5j67', '5j69', '5j68', '6fbm', '3t5o', '5ouq', '5oup', '5own', '4e0s', '2qp2', '6cxo', '8b6u', '4a5w', '3kk7', '4oej', '4ov8', '6r2q', '5ljm', '4leu', '3v89', '4wvm', '4cdb', '7zke', '2grm', '5tc1', '8dml', '5fq6', '7jw3', '6xd4', '4me2', '3l6a', '8jj6', '6gie']
+2024-10-06 12:10:57,137 - INFO - PyMOL initialized successfully.
+2024-10-06 12:10:57,138 - DEBUG - Created output directory: processed_pdbs_top50
+2024-10-06 12:10:57,138 - DEBUG - Processing PDB ID: 6sb5, Chain: D
+2024-10-06 12:10:57,138 - INFO - Fetched PDB ID: 6sb5
+2024-10-06 12:11:00,143 - INFO - Saved CIF for PDB ID: 6sb5 to 6sb5.cif
+2024-10-06 12:11:05,144 - DEBUG - Removed solvent molecules
+2024-10-06 12:11:08,145 - DEBUG - Removed all chains except Chain D for PDB ID: 6sb5
+2024-10-06 12:11:11,150 - INFO - Saved Chain D of PDB ID 6sb5 to processed_pdbs_top50/6sb5D.pdb
+2024-10-06 12:11:14,154 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:11:17,156 - INFO - Aligned 6sb5 with local_pdb
+2024-10-06 12:11:20,158 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:11:25,162 - DEBUG - Oriented the view
+2024-10-06 12:11:27,163 - DEBUG - Colored 6sb5 yellow
+2024-10-06 12:11:28,166 - DEBUG - Colored local_pdb green
+2024-10-06 12:11:29,167 - INFO - Saved alignment image to 6sb5_D_alignment.png
+2024-10-06 12:11:31,168 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:11:33,172 - DEBUG - Processing PDB ID: 6sb4, Chain: C
+2024-10-06 12:11:33,173 - INFO - Fetched PDB ID: 6sb4
+2024-10-06 12:11:36,177 - INFO - Saved CIF for PDB ID: 6sb4 to 6sb4.cif
+2024-10-06 12:11:41,182 - DEBUG - Removed solvent molecules
+2024-10-06 12:11:44,183 - DEBUG - Removed all chains except Chain C for PDB ID: 6sb4
+2024-10-06 12:11:47,189 - INFO - Saved Chain C of PDB ID 6sb4 to processed_pdbs_top50/6sb4C.pdb
+2024-10-06 12:11:50,191 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:11:53,195 - INFO - Aligned 6sb4 with local_pdb
+2024-10-06 12:11:56,197 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:12:01,204 - DEBUG - Oriented the view
+2024-10-06 12:12:03,207 - DEBUG - Colored 6sb4 yellow
+2024-10-06 12:12:04,212 - DEBUG - Colored local_pdb green
+2024-10-06 12:12:05,216 - INFO - Saved alignment image to 6sb4_C_alignment.png
+2024-10-06 12:12:07,218 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:12:09,219 - DEBUG - Processing PDB ID: 6sb1, Chain: A
+2024-10-06 12:12:09,220 - INFO - Fetched PDB ID: 6sb1
+2024-10-06 12:12:12,223 - INFO - Saved CIF for PDB ID: 6sb1 to 6sb1.cif
+2024-10-06 12:12:17,227 - DEBUG - Removed solvent molecules
+2024-10-06 12:12:20,228 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb1
+2024-10-06 12:12:23,232 - INFO - Saved Chain A of PDB ID 6sb1 to processed_pdbs_top50/6sb1A.pdb
+2024-10-06 12:12:26,233 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:12:29,239 - INFO - Aligned 6sb1 with local_pdb
+2024-10-06 12:12:32,243 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:12:37,246 - DEBUG - Oriented the view
+2024-10-06 12:12:39,248 - DEBUG - Colored 6sb1 yellow
+2024-10-06 12:12:40,249 - DEBUG - Colored local_pdb green
+2024-10-06 12:12:41,253 - INFO - Saved alignment image to 6sb1_A_alignment.png
+2024-10-06 12:12:43,257 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:12:45,258 - DEBUG - Processing PDB ID: 6u2j, Chain: M
+2024-10-06 12:12:45,258 - INFO - Fetched PDB ID: 6u2j
+2024-10-06 12:12:48,258 - INFO - Saved CIF for PDB ID: 6u2j to 6u2j.cif
+2024-10-06 12:12:53,262 - DEBUG - Removed solvent molecules
+2024-10-06 12:12:56,263 - DEBUG - Removed all chains except Chain M for PDB ID: 6u2j
+2024-10-06 12:12:59,265 - INFO - Saved Chain M of PDB ID 6u2j to processed_pdbs_top50/6u2jM.pdb
+2024-10-06 12:13:02,270 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:13:05,272 - INFO - Aligned 6u2j with local_pdb
+2024-10-06 12:13:08,277 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:13:13,282 - DEBUG - Oriented the view
+2024-10-06 12:13:15,286 - DEBUG - Colored 6u2j yellow
+2024-10-06 12:13:16,291 - DEBUG - Colored local_pdb green
+2024-10-06 12:13:17,291 - INFO - Saved alignment image to 6u2j_M_alignment.png
+2024-10-06 12:13:19,293 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:13:21,298 - DEBUG - Processing PDB ID: 6u2k, Chain: B
+2024-10-06 12:13:21,298 - INFO - Fetched PDB ID: 6u2k
+2024-10-06 12:13:24,302 - INFO - Saved CIF for PDB ID: 6u2k to 6u2k.cif
+2024-10-06 12:13:29,303 - DEBUG - Removed solvent molecules
+2024-10-06 12:13:32,305 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2k
+2024-10-06 12:13:35,308 - INFO - Saved Chain B of PDB ID 6u2k to processed_pdbs_top50/6u2kB.pdb
+2024-10-06 12:13:38,313 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:13:41,319 - INFO - Aligned 6u2k with local_pdb
+2024-10-06 12:13:44,320 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:13:49,323 - DEBUG - Oriented the view
+2024-10-06 12:13:51,326 - DEBUG - Colored 6u2k yellow
+2024-10-06 12:13:52,329 - DEBUG - Colored local_pdb green
+2024-10-06 12:13:53,333 - INFO - Saved alignment image to 6u2k_B_alignment.png
+2024-10-06 12:13:55,338 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:13:57,345 - DEBUG - Processing PDB ID: 6sb3, Chain: A
+2024-10-06 12:13:57,345 - INFO - Fetched PDB ID: 6sb3
+2024-10-06 12:14:00,347 - INFO - Saved CIF for PDB ID: 6sb3 to 6sb3.cif
+2024-10-06 12:14:05,349 - DEBUG - Removed solvent molecules
+2024-10-06 12:14:08,355 - DEBUG - Removed all chains except Chain A for PDB ID: 6sb3
+2024-10-06 12:14:11,360 - INFO - Saved Chain A of PDB ID 6sb3 to processed_pdbs_top50/6sb3A.pdb
+2024-10-06 12:14:14,362 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:14:17,365 - INFO - Aligned 6sb3 with local_pdb
+2024-10-06 12:14:20,367 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:14:25,370 - DEBUG - Oriented the view
+2024-10-06 12:14:27,376 - DEBUG - Colored 6sb3 yellow
+2024-10-06 12:14:28,378 - DEBUG - Colored local_pdb green
+2024-10-06 12:14:29,381 - INFO - Saved alignment image to 6sb3_A_alignment.png
+2024-10-06 12:14:31,381 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:14:33,388 - DEBUG - Processing PDB ID: 6u23, Chain: A
+2024-10-06 12:14:33,388 - INFO - Fetched PDB ID: 6u23
+2024-10-06 12:14:36,392 - INFO - Saved CIF for PDB ID: 6u23 to 6u23.cif
+2024-10-06 12:14:41,396 - DEBUG - Removed solvent molecules
+2024-10-06 12:14:44,398 - DEBUG - Removed all chains except Chain A for PDB ID: 6u23
+2024-10-06 12:14:47,402 - INFO - Saved Chain A of PDB ID 6u23 to processed_pdbs_top50/6u23A.pdb
+2024-10-06 12:14:50,403 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:14:53,407 - INFO - Aligned 6u23 with local_pdb
+2024-10-06 12:14:56,408 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:15:01,413 - DEBUG - Oriented the view
+2024-10-06 12:15:03,414 - DEBUG - Colored 6u23 yellow
+2024-10-06 12:15:04,418 - DEBUG - Colored local_pdb green
+2024-10-06 12:15:05,422 - INFO - Saved alignment image to 6u23_A_alignment.png
+2024-10-06 12:15:07,428 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:15:09,433 - DEBUG - Processing PDB ID: 6u2w, Chain: B
+2024-10-06 12:15:09,433 - INFO - Fetched PDB ID: 6u2w
+2024-10-06 12:15:12,437 - INFO - Saved CIF for PDB ID: 6u2w to 6u2w.cif
+2024-10-06 12:15:17,441 - DEBUG - Removed solvent molecules
+2024-10-06 12:15:20,442 - DEBUG - Removed all chains except Chain B for PDB ID: 6u2w
+2024-10-06 12:15:23,445 - INFO - Saved Chain B of PDB ID 6u2w to processed_pdbs_top50/6u2wB.pdb
+2024-10-06 12:15:26,447 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:15:29,450 - INFO - Aligned 6u2w with local_pdb
+2024-10-06 12:15:32,455 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:15:37,456 - DEBUG - Oriented the view
+2024-10-06 12:15:39,458 - DEBUG - Colored 6u2w yellow
+2024-10-06 12:15:40,461 - DEBUG - Colored local_pdb green
+2024-10-06 12:15:41,463 - INFO - Saved alignment image to 6u2w_B_alignment.png
+2024-10-06 12:15:43,469 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:15:45,469 - DEBUG - Processing PDB ID: 7nyd, Chain: D
+2024-10-06 12:15:45,470 - INFO - Fetched PDB ID: 7nyd
+2024-10-06 12:15:48,470 - INFO - Saved CIF for PDB ID: 7nyd to 7nyd.cif
+2024-10-06 12:15:53,472 - DEBUG - Removed solvent molecules
+2024-10-06 12:15:56,476 - DEBUG - Removed all chains except Chain D for PDB ID: 7nyd
+2024-10-06 12:15:59,479 - INFO - Saved Chain D of PDB ID 7nyd to processed_pdbs_top50/7nydD.pdb
+2024-10-06 12:16:02,481 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:16:05,484 - INFO - Aligned 7nyd with local_pdb
+2024-10-06 12:16:08,485 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:16:13,489 - DEBUG - Oriented the view
+2024-10-06 12:16:15,494 - DEBUG - Colored 7nyd yellow
+2024-10-06 12:16:16,497 - DEBUG - Colored local_pdb green
+2024-10-06 12:16:17,500 - INFO - Saved alignment image to 7nyd_D_alignment.png
+2024-10-06 12:16:19,505 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:16:21,510 - DEBUG - Processing PDB ID: 7nyc, Chain: D
+2024-10-06 12:16:21,510 - INFO - Fetched PDB ID: 7nyc
+2024-10-06 12:16:24,513 - INFO - Saved CIF for PDB ID: 7nyc to 7nyc.cif
+2024-10-06 12:16:29,515 - DEBUG - Removed solvent molecules
+2024-10-06 12:16:32,518 - DEBUG - Removed all chains except Chain D for PDB ID: 7nyc
+2024-10-06 12:16:35,523 - INFO - Saved Chain D of PDB ID 7nyc to processed_pdbs_top50/7nycD.pdb
+2024-10-06 12:16:38,524 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:16:41,525 - INFO - Aligned 7nyc with local_pdb
+2024-10-06 12:16:44,528 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:16:49,530 - DEBUG - Oriented the view
+2024-10-06 12:16:51,536 - DEBUG - Colored 7nyc yellow
+2024-10-06 12:16:52,538 - DEBUG - Colored local_pdb green
+2024-10-06 12:16:53,542 - INFO - Saved alignment image to 7nyc_D_alignment.png
+2024-10-06 12:16:55,546 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:16:57,551 - DEBUG - Processing PDB ID: 6h04, Chain: W
+2024-10-06 12:16:57,552 - INFO - Fetched PDB ID: 6h04
+2024-10-06 12:17:00,553 - INFO - Saved CIF for PDB ID: 6h04 to 6h04.cif
+2024-10-06 12:17:05,556 - DEBUG - Removed solvent molecules
+2024-10-06 12:17:08,559 - DEBUG - Removed all chains except Chain W for PDB ID: 6h04
+2024-10-06 12:17:11,562 - INFO - Saved Chain W of PDB ID 6h04 to processed_pdbs_top50/6h04W.pdb
+2024-10-06 12:17:14,564 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:17:17,567 - INFO - Aligned 6h04 with local_pdb
+2024-10-06 12:17:20,569 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:17:25,571 - DEBUG - Oriented the view
+2024-10-06 12:17:27,574 - DEBUG - Colored 6h04 yellow
+2024-10-06 12:17:28,574 - DEBUG - Colored local_pdb green
+2024-10-06 12:17:29,577 - INFO - Saved alignment image to 6h04_W_alignment.png
+2024-10-06 12:17:31,582 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:17:33,584 - DEBUG - Processing PDB ID: 6dlw, Chain: M
+2024-10-06 12:17:33,584 - INFO - Fetched PDB ID: 6dlw
+2024-10-06 12:17:36,589 - INFO - Saved CIF for PDB ID: 6dlw to 6dlw.cif
+2024-10-06 12:17:41,592 - DEBUG - Removed solvent molecules
+2024-10-06 12:17:44,595 - DEBUG - Removed all chains except Chain M for PDB ID: 6dlw
+2024-10-06 12:17:47,598 - INFO - Saved Chain M of PDB ID 6dlw to processed_pdbs_top50/6dlwM.pdb
+2024-10-06 12:17:50,600 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:17:53,603 - INFO - Aligned 6dlw with local_pdb
+2024-10-06 12:17:56,605 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:18:01,608 - DEBUG - Oriented the view
+2024-10-06 12:18:03,613 - DEBUG - Colored 6dlw yellow
+2024-10-06 12:18:04,615 - DEBUG - Colored local_pdb green
+2024-10-06 12:18:05,616 - INFO - Saved alignment image to 6dlw_M_alignment.png
+2024-10-06 12:18:07,622 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:18:09,627 - DEBUG - Processing PDB ID: 7pag, Chain: A
+2024-10-06 12:18:09,627 - INFO - Fetched PDB ID: 7pag
+2024-10-06 12:18:12,631 - INFO - Saved CIF for PDB ID: 7pag to 7pag.cif
+2024-10-06 12:18:17,634 - DEBUG - Removed solvent molecules
+2024-10-06 12:18:20,639 - DEBUG - Removed all chains except Chain A for PDB ID: 7pag
+2024-10-06 12:18:23,644 - INFO - Saved Chain A of PDB ID 7pag to processed_pdbs_top50/7pagA.pdb
+2024-10-06 12:18:26,645 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:18:29,650 - INFO - Aligned 7pag with local_pdb
+2024-10-06 12:18:32,651 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:18:37,655 - DEBUG - Oriented the view
+2024-10-06 12:18:39,657 - DEBUG - Colored 7pag yellow
+2024-10-06 12:18:40,658 - DEBUG - Colored local_pdb green
+2024-10-06 12:18:41,662 - INFO - Saved alignment image to 7pag_A_alignment.png
+2024-10-06 12:18:43,665 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:18:45,669 - DEBUG - Processing PDB ID: 3nsj, Chain: A
+2024-10-06 12:18:45,670 - INFO - Fetched PDB ID: 3nsj
+2024-10-06 12:18:48,673 - INFO - Saved CIF for PDB ID: 3nsj to 3nsj.cif
+2024-10-06 12:18:53,677 - DEBUG - Removed solvent molecules
+2024-10-06 12:18:56,677 - DEBUG - Removed all chains except Chain A for PDB ID: 3nsj
+2024-10-06 12:18:59,680 - INFO - Saved Chain A of PDB ID 3nsj to processed_pdbs_top50/3nsjA.pdb
+2024-10-06 12:19:02,682 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:19:05,687 - INFO - Aligned 3nsj with local_pdb
+2024-10-06 12:19:08,692 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:19:13,696 - DEBUG - Oriented the view
+2024-10-06 12:19:15,701 - DEBUG - Colored 3nsj yellow
+2024-10-06 12:19:16,704 - DEBUG - Colored local_pdb green
+2024-10-06 12:19:17,706 - INFO - Saved alignment image to 3nsj_A_alignment.png
+2024-10-06 12:19:19,706 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:19:21,711 - DEBUG - Processing PDB ID: 2qqh, Chain: A
+2024-10-06 12:19:21,712 - INFO - Fetched PDB ID: 2qqh
+2024-10-06 12:19:24,714 - INFO - Saved CIF for PDB ID: 2qqh to 2qqh.cif
+2024-10-06 12:19:29,716 - DEBUG - Removed solvent molecules
+2024-10-06 12:19:32,719 - DEBUG - Removed all chains except Chain A for PDB ID: 2qqh
+2024-10-06 12:19:35,721 - INFO - Saved Chain A of PDB ID 2qqh to processed_pdbs_top50/2qqhA.pdb
+2024-10-06 12:19:38,724 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:19:41,726 - INFO - Aligned 2qqh with local_pdb
+2024-10-06 12:19:44,730 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:19:49,734 - DEBUG - Oriented the view
+2024-10-06 12:19:51,737 - DEBUG - Colored 2qqh yellow
+2024-10-06 12:19:52,742 - DEBUG - Colored local_pdb green
+2024-10-06 12:19:53,742 - INFO - Saved alignment image to 2qqh_A_alignment.png
+2024-10-06 12:19:55,743 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:19:57,748 - DEBUG - Processing PDB ID: 2rd7, Chain: A
+2024-10-06 12:19:57,748 - INFO - Fetched PDB ID: 2rd7
+2024-10-06 12:20:00,750 - INFO - Saved CIF for PDB ID: 2rd7 to 2rd7.cif
+2024-10-06 12:20:05,752 - DEBUG - Removed solvent molecules
+2024-10-06 12:20:08,755 - DEBUG - Removed all chains except Chain A for PDB ID: 2rd7
+2024-10-06 12:20:11,756 - INFO - Saved Chain A of PDB ID 2rd7 to processed_pdbs_top50/2rd7A.pdb
+2024-10-06 12:20:14,766 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:20:17,775 - INFO - Aligned 2rd7 with local_pdb
+2024-10-06 12:20:20,776 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:20:25,798 - DEBUG - Oriented the view
+2024-10-06 12:20:27,799 - DEBUG - Colored 2rd7 yellow
+2024-10-06 12:20:28,802 - DEBUG - Colored local_pdb green
+2024-10-06 12:20:29,810 - INFO - Saved alignment image to 2rd7_A_alignment.png
+2024-10-06 12:20:31,819 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:20:33,828 - DEBUG - Processing PDB ID: 3ojy, Chain: A
+2024-10-06 12:20:33,828 - INFO - Fetched PDB ID: 3ojy
+2024-10-06 12:20:36,829 - INFO - Saved CIF for PDB ID: 3ojy to 3ojy.cif
+2024-10-06 12:20:41,831 - DEBUG - Removed solvent molecules
+2024-10-06 12:20:44,842 - DEBUG - Removed all chains except Chain A for PDB ID: 3ojy
+2024-10-06 12:20:47,849 - INFO - Saved Chain A of PDB ID 3ojy to processed_pdbs_top50/3ojyA.pdb
+2024-10-06 12:20:50,852 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:20:53,879 - INFO - Aligned 3ojy with local_pdb
+2024-10-06 12:20:56,880 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:21:01,885 - DEBUG - Oriented the view
+2024-10-06 12:21:03,887 - DEBUG - Colored 3ojy yellow
+2024-10-06 12:21:04,887 - DEBUG - Colored local_pdb green
+2024-10-06 12:21:05,897 - INFO - Saved alignment image to 3ojy_A_alignment.png
+2024-10-06 12:21:07,897 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:21:09,898 - DEBUG - Processing PDB ID: 5j67, Chain: C
+2024-10-06 12:21:09,898 - INFO - Fetched PDB ID: 5j67
+2024-10-06 12:21:12,907 - INFO - Saved CIF for PDB ID: 5j67 to 5j67.cif
+2024-10-06 12:21:17,910 - DEBUG - Removed solvent molecules
+2024-10-06 12:21:20,911 - DEBUG - Removed all chains except Chain C for PDB ID: 5j67
+2024-10-06 12:21:23,913 - INFO - Saved Chain C of PDB ID 5j67 to processed_pdbs_top50/5j67C.pdb
+2024-10-06 12:21:26,919 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:21:29,931 - INFO - Aligned 5j67 with local_pdb
+2024-10-06 12:21:32,936 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:21:37,944 - DEBUG - Oriented the view
+2024-10-06 12:21:39,947 - DEBUG - Colored 5j67 yellow
+2024-10-06 12:21:40,947 - DEBUG - Colored local_pdb green
+2024-10-06 12:21:41,957 - INFO - Saved alignment image to 5j67_C_alignment.png
+2024-10-06 12:21:43,957 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:21:45,966 - DEBUG - Processing PDB ID: 5j69, Chain: B
+2024-10-06 12:21:45,966 - INFO - Fetched PDB ID: 5j69
+2024-10-06 12:21:48,970 - INFO - Saved CIF for PDB ID: 5j69 to 5j69.cif
+2024-10-06 12:21:53,980 - DEBUG - Removed solvent molecules
+2024-10-06 12:21:56,981 - DEBUG - Removed all chains except Chain B for PDB ID: 5j69
+2024-10-06 12:21:59,983 - INFO - Saved Chain B of PDB ID 5j69 to processed_pdbs_top50/5j69B.pdb
+2024-10-06 12:22:02,991 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:22:05,996 - INFO - Aligned 5j69 with local_pdb
+2024-10-06 12:22:09,002 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:22:14,004 - DEBUG - Oriented the view
+2024-10-06 12:22:16,004 - DEBUG - Colored 5j69 yellow
+2024-10-06 12:22:17,012 - DEBUG - Colored local_pdb green
+2024-10-06 12:22:18,018 - INFO - Saved alignment image to 5j69_B_alignment.png
+2024-10-06 12:22:20,021 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:22:22,026 - DEBUG - Processing PDB ID: 5j68, Chain: A
+2024-10-06 12:22:22,027 - INFO - Fetched PDB ID: 5j68
+2024-10-06 12:22:25,037 - INFO - Saved CIF for PDB ID: 5j68 to 5j68.cif
+2024-10-06 12:22:30,041 - DEBUG - Removed solvent molecules
+2024-10-06 12:22:33,047 - DEBUG - Removed all chains except Chain A for PDB ID: 5j68
+2024-10-06 12:22:36,056 - INFO - Saved Chain A of PDB ID 5j68 to processed_pdbs_top50/5j68A.pdb
+2024-10-06 12:22:39,059 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:22:42,064 - INFO - Aligned 5j68 with local_pdb
+2024-10-06 12:22:45,068 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:22:50,069 - DEBUG - Oriented the view
+2024-10-06 12:22:52,075 - DEBUG - Colored 5j68 yellow
+2024-10-06 12:22:53,079 - DEBUG - Colored local_pdb green
+2024-10-06 12:22:54,083 - INFO - Saved alignment image to 5j68_A_alignment.png
+2024-10-06 12:22:56,090 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:22:58,095 - DEBUG - Processing PDB ID: 6fbm, Chain: A
+2024-10-06 12:22:58,096 - INFO - Fetched PDB ID: 6fbm
+2024-10-06 12:23:01,097 - INFO - Saved CIF for PDB ID: 6fbm to 6fbm.cif
+2024-10-06 12:23:06,100 - DEBUG - Removed solvent molecules
+2024-10-06 12:23:09,103 - DEBUG - Removed all chains except Chain A for PDB ID: 6fbm
+2024-10-06 12:23:12,105 - INFO - Saved Chain A of PDB ID 6fbm to processed_pdbs_top50/6fbmA.pdb
+2024-10-06 12:23:15,105 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:23:18,107 - INFO - Aligned 6fbm with local_pdb
+2024-10-06 12:23:21,109 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:23:26,113 - DEBUG - Oriented the view
+2024-10-06 12:23:28,118 - DEBUG - Colored 6fbm yellow
+2024-10-06 12:23:29,122 - DEBUG - Colored local_pdb green
+2024-10-06 12:23:30,126 - INFO - Saved alignment image to 6fbm_A_alignment.png
+2024-10-06 12:23:32,128 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:23:34,130 - DEBUG - Processing PDB ID: 3t5o, Chain: A
+2024-10-06 12:23:34,130 - INFO - Fetched PDB ID: 3t5o
+2024-10-06 12:23:37,134 - INFO - Saved CIF for PDB ID: 3t5o to 3t5o.cif
+2024-10-06 12:23:42,139 - DEBUG - Removed solvent molecules
+2024-10-06 12:23:45,140 - DEBUG - Removed all chains except Chain A for PDB ID: 3t5o
+2024-10-06 12:23:48,145 - INFO - Saved Chain A of PDB ID 3t5o to processed_pdbs_top50/3t5oA.pdb
+2024-10-06 12:23:51,147 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:23:54,152 - INFO - Aligned 3t5o with local_pdb
+2024-10-06 12:23:57,156 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:24:02,159 - DEBUG - Oriented the view
+2024-10-06 12:24:04,163 - DEBUG - Colored 3t5o yellow
+2024-10-06 12:24:05,168 - DEBUG - Colored local_pdb green
+2024-10-06 12:24:06,173 - INFO - Saved alignment image to 3t5o_A_alignment.png
+2024-10-06 12:24:08,177 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:24:10,180 - DEBUG - Processing PDB ID: 5ouq, Chain: D
+2024-10-06 12:24:10,180 - INFO - Fetched PDB ID: 5ouq
+2024-10-06 12:24:13,184 - INFO - Saved CIF for PDB ID: 5ouq to 5ouq.cif
+2024-10-06 12:24:18,188 - DEBUG - Removed solvent molecules
+2024-10-06 12:24:21,193 - DEBUG - Removed all chains except Chain D for PDB ID: 5ouq
+2024-10-06 12:24:24,194 - INFO - Saved Chain D of PDB ID 5ouq to processed_pdbs_top50/5ouqD.pdb
+2024-10-06 12:24:27,200 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:24:30,204 - INFO - Aligned 5ouq with local_pdb
+2024-10-06 12:24:33,208 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:24:38,212 - DEBUG - Oriented the view
+2024-10-06 12:24:40,217 - DEBUG - Colored 5ouq yellow
+2024-10-06 12:24:41,222 - DEBUG - Colored local_pdb green
+2024-10-06 12:24:42,224 - INFO - Saved alignment image to 5ouq_D_alignment.png
+2024-10-06 12:24:44,227 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:24:46,230 - DEBUG - Processing PDB ID: 5oup, Chain: A
+2024-10-06 12:24:46,230 - INFO - Fetched PDB ID: 5oup
+2024-10-06 12:24:49,234 - INFO - Saved CIF for PDB ID: 5oup to 5oup.cif
+2024-10-06 12:24:54,238 - DEBUG - Removed solvent molecules
+2024-10-06 12:24:57,241 - DEBUG - Removed all chains except Chain A for PDB ID: 5oup
+2024-10-06 12:25:00,245 - INFO - Saved Chain A of PDB ID 5oup to processed_pdbs_top50/5oupA.pdb
+2024-10-06 12:25:03,246 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:25:06,247 - INFO - Aligned 5oup with local_pdb
+2024-10-06 12:25:09,251 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:25:14,257 - DEBUG - Oriented the view
+2024-10-06 12:25:16,258 - DEBUG - Colored 5oup yellow
+2024-10-06 12:25:17,259 - DEBUG - Colored local_pdb green
+2024-10-06 12:25:18,261 - INFO - Saved alignment image to 5oup_A_alignment.png
+2024-10-06 12:25:20,266 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:25:22,271 - DEBUG - Processing PDB ID: 5own, Chain: B
+2024-10-06 12:25:22,271 - INFO - Fetched PDB ID: 5own
+2024-10-06 12:25:25,275 - INFO - Saved CIF for PDB ID: 5own to 5own.cif
+2024-10-06 12:25:30,277 - DEBUG - Removed solvent molecules
+2024-10-06 12:25:33,279 - DEBUG - Removed all chains except Chain B for PDB ID: 5own
+2024-10-06 12:25:36,282 - INFO - Saved Chain B of PDB ID 5own to processed_pdbs_top50/5ownB.pdb
+2024-10-06 12:25:39,284 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:25:42,288 - INFO - Aligned 5own with local_pdb
+2024-10-06 12:25:45,293 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:25:50,299 - DEBUG - Oriented the view
+2024-10-06 12:25:52,302 - DEBUG - Colored 5own yellow
+2024-10-06 12:25:53,305 - DEBUG - Colored local_pdb green
+2024-10-06 12:25:54,306 - INFO - Saved alignment image to 5own_B_alignment.png
+2024-10-06 12:25:56,307 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:25:58,310 - DEBUG - Processing PDB ID: 4e0s, Chain: B
+2024-10-06 12:25:58,310 - INFO - Fetched PDB ID: 4e0s
+2024-10-06 12:26:01,312 - INFO - Saved CIF for PDB ID: 4e0s to 4e0s.cif
+2024-10-06 12:26:06,315 - DEBUG - Removed solvent molecules
+2024-10-06 12:26:09,317 - DEBUG - Removed all chains except Chain B for PDB ID: 4e0s
+2024-10-06 12:26:12,318 - INFO - Saved Chain B of PDB ID 4e0s to processed_pdbs_top50/4e0sB.pdb
+2024-10-06 12:26:15,318 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:26:18,320 - INFO - Aligned 4e0s with local_pdb
+2024-10-06 12:26:21,324 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:26:26,326 - DEBUG - Oriented the view
+2024-10-06 12:26:28,328 - DEBUG - Colored 4e0s yellow
+2024-10-06 12:26:29,333 - DEBUG - Colored local_pdb green
+2024-10-06 12:26:30,338 - INFO - Saved alignment image to 4e0s_B_alignment.png
+2024-10-06 12:26:32,342 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:26:34,345 - DEBUG - Processing PDB ID: 2qp2, Chain: A
+2024-10-06 12:26:34,345 - INFO - Fetched PDB ID: 2qp2
+2024-10-06 12:26:37,351 - INFO - Saved CIF for PDB ID: 2qp2 to 2qp2.cif
+2024-10-06 12:26:42,354 - DEBUG - Removed solvent molecules
+2024-10-06 12:26:45,355 - DEBUG - Removed all chains except Chain A for PDB ID: 2qp2
+2024-10-06 12:26:48,355 - INFO - Saved Chain A of PDB ID 2qp2 to processed_pdbs_top50/2qp2A.pdb
+2024-10-06 12:26:51,356 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:26:54,359 - INFO - Aligned 2qp2 with local_pdb
+2024-10-06 12:26:57,361 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:27:02,363 - DEBUG - Oriented the view
+2024-10-06 12:27:04,366 - DEBUG - Colored 2qp2 yellow
+2024-10-06 12:27:05,366 - DEBUG - Colored local_pdb green
+2024-10-06 12:27:06,370 - INFO - Saved alignment image to 2qp2_A_alignment.png
+2024-10-06 12:27:08,375 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:27:10,376 - DEBUG - Processing PDB ID: 6cxo, Chain: A
+2024-10-06 12:27:10,376 - INFO - Fetched PDB ID: 6cxo
+2024-10-06 12:27:13,378 - INFO - Saved CIF for PDB ID: 6cxo to 6cxo.cif
+2024-10-06 12:27:18,382 - DEBUG - Removed solvent molecules
+2024-10-06 12:27:21,383 - DEBUG - Removed all chains except Chain A for PDB ID: 6cxo
+2024-10-06 12:27:24,387 - INFO - Saved Chain A of PDB ID 6cxo to processed_pdbs_top50/6cxoA.pdb
+2024-10-06 12:27:27,392 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:27:30,394 - INFO - Aligned 6cxo with local_pdb
+2024-10-06 12:27:33,398 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:27:38,401 - DEBUG - Oriented the view
+2024-10-06 12:27:40,402 - DEBUG - Colored 6cxo yellow
+2024-10-06 12:27:41,405 - DEBUG - Colored local_pdb green
+2024-10-06 12:27:42,409 - INFO - Saved alignment image to 6cxo_A_alignment.png
+2024-10-06 12:27:44,411 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:27:46,413 - DEBUG - Processing PDB ID: 8b6u, Chain: A
+2024-10-06 12:27:46,413 - INFO - Fetched PDB ID: 8b6u
+2024-10-06 12:27:49,414 - INFO - Saved CIF for PDB ID: 8b6u to 8b6u.cif
+2024-10-06 12:27:54,418 - DEBUG - Removed solvent molecules
+2024-10-06 12:27:57,418 - DEBUG - Removed all chains except Chain A for PDB ID: 8b6u
+2024-10-06 12:28:00,420 - INFO - Saved Chain A of PDB ID 8b6u to processed_pdbs_top50/8b6uA.pdb
+2024-10-06 12:28:03,424 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:28:06,429 - INFO - Aligned 8b6u with local_pdb
+2024-10-06 12:28:09,432 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:28:14,433 - DEBUG - Oriented the view
+2024-10-06 12:28:16,436 - DEBUG - Colored 8b6u yellow
+2024-10-06 12:28:17,441 - DEBUG - Colored local_pdb green
+2024-10-06 12:28:18,442 - INFO - Saved alignment image to 8b6u_A_alignment.png
+2024-10-06 12:28:20,443 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:28:22,448 - DEBUG - Processing PDB ID: 4a5w, Chain: B
+2024-10-06 12:28:22,448 - INFO - Fetched PDB ID: 4a5w
+2024-10-06 12:28:25,449 - INFO - Saved CIF for PDB ID: 4a5w to 4a5w.cif
+2024-10-06 12:28:30,451 - DEBUG - Removed solvent molecules
+2024-10-06 12:28:33,453 - DEBUG - Removed all chains except Chain B for PDB ID: 4a5w
+2024-10-06 12:28:36,455 - INFO - Saved Chain B of PDB ID 4a5w to processed_pdbs_top50/4a5wB.pdb
+2024-10-06 12:28:39,457 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:28:42,458 - INFO - Aligned 4a5w with local_pdb
+2024-10-06 12:28:45,461 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:28:50,466 - DEBUG - Oriented the view
+2024-10-06 12:28:52,471 - DEBUG - Colored 4a5w yellow
+2024-10-06 12:28:53,474 - DEBUG - Colored local_pdb green
+2024-10-06 12:28:54,477 - INFO - Saved alignment image to 4a5w_B_alignment.png
+2024-10-06 12:28:56,478 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:28:58,483 - DEBUG - Processing PDB ID: 3kk7, Chain: A
+2024-10-06 12:28:58,484 - INFO - Fetched PDB ID: 3kk7
+2024-10-06 12:29:01,486 - INFO - Saved CIF for PDB ID: 3kk7 to 3kk7.cif
+2024-10-06 12:29:06,492 - DEBUG - Removed solvent molecules
+2024-10-06 12:29:09,496 - DEBUG - Removed all chains except Chain A for PDB ID: 3kk7
+2024-10-06 12:29:12,499 - INFO - Saved Chain A of PDB ID 3kk7 to processed_pdbs_top50/3kk7A.pdb
+2024-10-06 12:29:15,501 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:29:18,503 - INFO - Aligned 3kk7 with local_pdb
+2024-10-06 12:29:21,504 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:29:26,506 - DEBUG - Oriented the view
+2024-10-06 12:29:28,508 - DEBUG - Colored 3kk7 yellow
+2024-10-06 12:29:29,512 - DEBUG - Colored local_pdb green
+2024-10-06 12:29:30,513 - INFO - Saved alignment image to 3kk7_A_alignment.png
+2024-10-06 12:29:32,514 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:29:34,519 - DEBUG - Processing PDB ID: 4oej, Chain: A
+2024-10-06 12:29:34,519 - INFO - Fetched PDB ID: 4oej
+2024-10-06 12:29:37,521 - INFO - Saved CIF for PDB ID: 4oej to 4oej.cif
+2024-10-06 12:29:42,523 - DEBUG - Removed solvent molecules
+2024-10-06 12:29:45,526 - DEBUG - Removed all chains except Chain A for PDB ID: 4oej
+2024-10-06 12:29:48,529 - INFO - Saved Chain A of PDB ID 4oej to processed_pdbs_top50/4oejA.pdb
+2024-10-06 12:29:51,532 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:29:54,536 - INFO - Aligned 4oej with local_pdb
+2024-10-06 12:29:57,539 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:30:02,544 - DEBUG - Oriented the view
+2024-10-06 12:30:04,552 - DEBUG - Colored 4oej yellow
+2024-10-06 12:30:05,563 - DEBUG - Colored local_pdb green
+2024-10-06 12:30:06,573 - INFO - Saved alignment image to 4oej_A_alignment.png
+2024-10-06 12:30:08,577 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:30:10,584 - DEBUG - Processing PDB ID: 4ov8, Chain: A
+2024-10-06 12:30:10,585 - INFO - Fetched PDB ID: 4ov8
+2024-10-06 12:30:13,589 - INFO - Saved CIF for PDB ID: 4ov8 to 4ov8.cif
+2024-10-06 12:30:18,598 - DEBUG - Removed solvent molecules
+2024-10-06 12:30:21,602 - DEBUG - Removed all chains except Chain A for PDB ID: 4ov8
+2024-10-06 12:30:24,612 - INFO - Saved Chain A of PDB ID 4ov8 to processed_pdbs_top50/4ov8A.pdb
+2024-10-06 12:30:27,620 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:30:30,622 - INFO - Aligned 4ov8 with local_pdb
+2024-10-06 12:30:33,631 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:30:38,639 - DEBUG - Oriented the view
+2024-10-06 12:30:40,647 - DEBUG - Colored 4ov8 yellow
+2024-10-06 12:30:41,649 - DEBUG - Colored local_pdb green
+2024-10-06 12:30:42,650 - INFO - Saved alignment image to 4ov8_A_alignment.png
+2024-10-06 12:30:44,658 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:30:46,664 - DEBUG - Processing PDB ID: 6r2q, Chain: B
+2024-10-06 12:30:46,664 - INFO - Fetched PDB ID: 6r2q
+2024-10-06 12:30:49,666 - INFO - Saved CIF for PDB ID: 6r2q to 6r2q.cif
+2024-10-06 12:30:54,672 - DEBUG - Removed solvent molecules
+2024-10-06 12:30:57,678 - DEBUG - Removed all chains except Chain B for PDB ID: 6r2q
+2024-10-06 12:31:00,684 - INFO - Saved Chain B of PDB ID 6r2q to processed_pdbs_top50/6r2qB.pdb
+2024-10-06 12:31:03,695 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:31:06,696 - INFO - Aligned 6r2q with local_pdb
+2024-10-06 12:31:09,704 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:31:14,710 - DEBUG - Oriented the view
+2024-10-06 12:31:16,713 - DEBUG - Colored 6r2q yellow
+2024-10-06 12:31:17,722 - DEBUG - Colored local_pdb green
+2024-10-06 12:31:18,729 - INFO - Saved alignment image to 6r2q_B_alignment.png
+2024-10-06 12:31:20,739 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:31:22,744 - DEBUG - Processing PDB ID: 5ljm, Chain: A
+2024-10-06 12:31:22,744 - INFO - Fetched PDB ID: 5ljm
+2024-10-06 12:31:25,748 - INFO - Saved CIF for PDB ID: 5ljm to 5ljm.cif
+2024-10-06 12:31:30,749 - DEBUG - Removed solvent molecules
+2024-10-06 12:31:33,751 - DEBUG - Removed all chains except Chain A for PDB ID: 5ljm
+2024-10-06 12:31:36,753 - INFO - Saved Chain A of PDB ID 5ljm to processed_pdbs_top50/5ljmA.pdb
+2024-10-06 12:31:39,756 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:31:42,763 - INFO - Aligned 5ljm with local_pdb
+2024-10-06 12:31:45,765 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:31:50,776 - DEBUG - Oriented the view
+2024-10-06 12:31:52,777 - DEBUG - Colored 5ljm yellow
+2024-10-06 12:31:53,788 - DEBUG - Colored local_pdb green
+2024-10-06 12:31:54,792 - INFO - Saved alignment image to 5ljm_A_alignment.png
+2024-10-06 12:31:56,793 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:31:58,800 - DEBUG - Processing PDB ID: 4leu, Chain: A
+2024-10-06 12:31:58,801 - INFO - Fetched PDB ID: 4leu
+2024-10-06 12:32:01,809 - INFO - Saved CIF for PDB ID: 4leu to 4leu.cif
+2024-10-06 12:32:06,816 - DEBUG - Removed solvent molecules
+2024-10-06 12:32:09,825 - DEBUG - Removed all chains except Chain A for PDB ID: 4leu
+2024-10-06 12:32:12,826 - INFO - Saved Chain A of PDB ID 4leu to processed_pdbs_top50/4leuA.pdb
+2024-10-06 12:32:15,826 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:32:18,830 - INFO - Aligned 4leu with local_pdb
+2024-10-06 12:32:21,837 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:32:26,845 - DEBUG - Oriented the view
+2024-10-06 12:32:28,853 - DEBUG - Colored 4leu yellow
+2024-10-06 12:32:29,857 - DEBUG - Colored local_pdb green
+2024-10-06 12:32:30,863 - INFO - Saved alignment image to 4leu_A_alignment.png
+2024-10-06 12:32:32,871 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:32:34,875 - DEBUG - Processing PDB ID: 3v89, Chain: A
+2024-10-06 12:32:34,875 - INFO - Fetched PDB ID: 3v89
+2024-10-06 12:32:37,876 - INFO - Saved CIF for PDB ID: 3v89 to 3v89.cif
+2024-10-06 12:32:42,879 - DEBUG - Removed solvent molecules
+2024-10-06 12:32:45,887 - DEBUG - Removed all chains except Chain A for PDB ID: 3v89
+2024-10-06 12:32:48,889 - INFO - Saved Chain A of PDB ID 3v89 to processed_pdbs_top50/3v89A.pdb
+2024-10-06 12:32:51,893 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:32:54,895 - INFO - Aligned 3v89 with local_pdb
+2024-10-06 12:32:57,898 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:33:02,906 - DEBUG - Oriented the view
+2024-10-06 12:33:04,915 - DEBUG - Colored 3v89 yellow
+2024-10-06 12:33:05,923 - DEBUG - Colored local_pdb green
+2024-10-06 12:33:06,924 - INFO - Saved alignment image to 3v89_A_alignment.png
+2024-10-06 12:33:08,932 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:33:10,940 - DEBUG - Processing PDB ID: 4wvm, Chain: B
+2024-10-06 12:33:10,941 - INFO - Fetched PDB ID: 4wvm
+2024-10-06 12:33:13,950 - INFO - Saved CIF for PDB ID: 4wvm to 4wvm.cif
+2024-10-06 12:33:18,953 - DEBUG - Removed solvent molecules
+2024-10-06 12:33:21,956 - DEBUG - Removed all chains except Chain B for PDB ID: 4wvm
+2024-10-06 12:33:24,963 - INFO - Saved Chain B of PDB ID 4wvm to processed_pdbs_top50/4wvmB.pdb
+2024-10-06 12:33:27,973 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:33:30,980 - INFO - Aligned 4wvm with local_pdb
+2024-10-06 12:33:33,988 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:33:38,990 - DEBUG - Oriented the view
+2024-10-06 12:33:40,992 - DEBUG - Colored 4wvm yellow
+2024-10-06 12:33:42,000 - DEBUG - Colored local_pdb green
+2024-10-06 12:33:43,001 - INFO - Saved alignment image to 4wvm_B_alignment.png
+2024-10-06 12:33:45,005 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:33:47,007 - DEBUG - Processing PDB ID: 4cdb, Chain: A
+2024-10-06 12:33:47,007 - INFO - Fetched PDB ID: 4cdb
+2024-10-06 12:33:50,008 - INFO - Saved CIF for PDB ID: 4cdb to 4cdb.cif
+2024-10-06 12:33:55,010 - DEBUG - Removed solvent molecules
+2024-10-06 12:33:58,019 - DEBUG - Removed all chains except Chain A for PDB ID: 4cdb
+2024-10-06 12:34:01,027 - INFO - Saved Chain A of PDB ID 4cdb to processed_pdbs_top50/4cdbA.pdb
+2024-10-06 12:34:04,036 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:34:07,038 - INFO - Aligned 4cdb with local_pdb
+2024-10-06 12:34:10,041 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:34:15,050 - DEBUG - Oriented the view
+2024-10-06 12:34:17,056 - DEBUG - Colored 4cdb yellow
+2024-10-06 12:34:18,065 - DEBUG - Colored local_pdb green
+2024-10-06 12:34:19,067 - INFO - Saved alignment image to 4cdb_A_alignment.png
+2024-10-06 12:34:21,070 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:34:23,075 - DEBUG - Processing PDB ID: 7zke, Chain: E
+2024-10-06 12:34:23,076 - INFO - Fetched PDB ID: 7zke
+2024-10-06 12:34:26,085 - INFO - Saved CIF for PDB ID: 7zke to 7zke.cif
+2024-10-06 12:34:31,091 - DEBUG - Removed solvent molecules
+2024-10-06 12:34:34,095 - DEBUG - Removed all chains except Chain E for PDB ID: 7zke
+2024-10-06 12:34:37,104 - INFO - Saved Chain E of PDB ID 7zke to processed_pdbs_top50/7zkeE.pdb
+2024-10-06 12:34:40,113 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:34:43,119 - INFO - Aligned 7zke with local_pdb
+2024-10-06 12:34:46,121 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:34:51,123 - DEBUG - Oriented the view
+2024-10-06 12:34:53,124 - DEBUG - Colored 7zke yellow
+2024-10-06 12:34:54,126 - DEBUG - Colored local_pdb green
+2024-10-06 12:34:55,135 - INFO - Saved alignment image to 7zke_E_alignment.png
+2024-10-06 12:34:57,136 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:34:59,137 - DEBUG - Processing PDB ID: 2grm, Chain: A
+2024-10-06 12:34:59,138 - INFO - Fetched PDB ID: 2grm
+2024-10-06 12:35:02,144 - INFO - Saved CIF for PDB ID: 2grm to 2grm.cif
+2024-10-06 12:35:07,153 - DEBUG - Removed solvent molecules
+2024-10-06 12:35:10,160 - DEBUG - Removed all chains except Chain A for PDB ID: 2grm
+2024-10-06 12:35:13,170 - INFO - Saved Chain A of PDB ID 2grm to processed_pdbs_top50/2grmA.pdb
+2024-10-06 12:35:16,172 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:35:19,174 - INFO - Aligned 2grm with local_pdb
+2024-10-06 12:35:22,175 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:35:27,185 - DEBUG - Oriented the view
+2024-10-06 12:35:29,193 - DEBUG - Colored 2grm yellow
+2024-10-06 12:35:30,204 - DEBUG - Colored local_pdb green
+2024-10-06 12:35:31,212 - INFO - Saved alignment image to 2grm_A_alignment.png
+2024-10-06 12:35:33,221 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:35:35,222 - DEBUG - Processing PDB ID: 5tc1, Chain: M
+2024-10-06 12:35:35,222 - INFO - Fetched PDB ID: 5tc1
+2024-10-06 12:35:38,223 - INFO - Saved CIF for PDB ID: 5tc1 to 5tc1.cif
+2024-10-06 12:35:43,224 - DEBUG - Removed solvent molecules
+2024-10-06 12:35:46,234 - DEBUG - Removed all chains except Chain M for PDB ID: 5tc1
+2024-10-06 12:35:49,235 - INFO - Saved Chain M of PDB ID 5tc1 to processed_pdbs_top50/5tc1M.pdb
+2024-10-06 12:35:52,237 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:35:55,237 - INFO - Aligned 5tc1 with local_pdb
+2024-10-06 12:35:58,239 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:36:03,247 - DEBUG - Oriented the view
+2024-10-06 12:36:05,256 - DEBUG - Colored 5tc1 yellow
+2024-10-06 12:36:06,259 - DEBUG - Colored local_pdb green
+2024-10-06 12:36:07,267 - INFO - Saved alignment image to 5tc1_M_alignment.png
+2024-10-06 12:36:09,269 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:36:11,320 - DEBUG - Processing PDB ID: 8dml, Chain: B
+2024-10-06 12:36:11,322 - INFO - Fetched PDB ID: 8dml
+2024-10-06 12:36:14,328 - INFO - Saved CIF for PDB ID: 8dml to 8dml.cif
+2024-10-06 12:36:19,335 - DEBUG - Removed solvent molecules
+2024-10-06 12:36:22,344 - DEBUG - Removed all chains except Chain B for PDB ID: 8dml
+2024-10-06 12:36:25,346 - INFO - Saved Chain B of PDB ID 8dml to processed_pdbs_top50/8dmlB.pdb
+2024-10-06 12:36:28,347 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:36:31,347 - INFO - Aligned 8dml with local_pdb
+2024-10-06 12:36:34,349 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:36:39,352 - DEBUG - Oriented the view
+2024-10-06 12:36:41,353 - DEBUG - Colored 8dml yellow
+2024-10-06 12:36:42,354 - DEBUG - Colored local_pdb green
+2024-10-06 12:36:43,356 - INFO - Saved alignment image to 8dml_B_alignment.png
+2024-10-06 12:36:45,357 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:36:47,367 - DEBUG - Processing PDB ID: 5fq6, Chain: M
+2024-10-06 12:36:47,367 - INFO - Fetched PDB ID: 5fq6
+2024-10-06 12:36:50,368 - INFO - Saved CIF for PDB ID: 5fq6 to 5fq6.cif
+2024-10-06 12:36:55,377 - DEBUG - Removed solvent molecules
+2024-10-06 12:36:58,385 - DEBUG - Removed all chains except Chain M for PDB ID: 5fq6
+2024-10-06 12:37:01,393 - INFO - Saved Chain M of PDB ID 5fq6 to processed_pdbs_top50/5fq6M.pdb
+2024-10-06 12:37:04,403 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:37:07,411 - INFO - Aligned 5fq6 with local_pdb
+2024-10-06 12:37:10,411 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:37:15,421 - DEBUG - Oriented the view
+2024-10-06 12:37:17,424 - DEBUG - Colored 5fq6 yellow
+2024-10-06 12:37:18,427 - DEBUG - Colored local_pdb green
+2024-10-06 12:37:19,431 - INFO - Saved alignment image to 5fq6_M_alignment.png
+2024-10-06 12:37:21,435 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:37:23,440 - DEBUG - Processing PDB ID: 7jw3, Chain: C
+2024-10-06 12:37:23,440 - INFO - Fetched PDB ID: 7jw3
+2024-10-06 12:37:26,443 - INFO - Saved CIF for PDB ID: 7jw3 to 7jw3.cif
+2024-10-06 12:37:31,446 - DEBUG - Removed solvent molecules
+2024-10-06 12:37:34,448 - DEBUG - Removed all chains except Chain C for PDB ID: 7jw3
+2024-10-06 12:37:37,453 - INFO - Saved Chain C of PDB ID 7jw3 to processed_pdbs_top50/7jw3C.pdb
+2024-10-06 12:37:40,456 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:37:43,461 - INFO - Aligned 7jw3 with local_pdb
+2024-10-06 12:37:46,463 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:37:51,467 - DEBUG - Oriented the view
+2024-10-06 12:37:53,471 - DEBUG - Colored 7jw3 yellow
+2024-10-06 12:37:54,477 - DEBUG - Colored local_pdb green
+2024-10-06 12:37:55,482 - INFO - Saved alignment image to 7jw3_C_alignment.png
+2024-10-06 12:37:57,486 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:37:59,489 - DEBUG - Processing PDB ID: 6xd4, Chain: A
+2024-10-06 12:37:59,489 - INFO - Fetched PDB ID: 6xd4
+2024-10-06 12:38:02,494 - INFO - Saved CIF for PDB ID: 6xd4 to 6xd4.cif
+2024-10-06 12:38:07,505 - DEBUG - Removed solvent molecules
+2024-10-06 12:38:10,512 - DEBUG - Removed all chains except Chain A for PDB ID: 6xd4
+2024-10-06 12:38:13,516 - INFO - Saved Chain A of PDB ID 6xd4 to processed_pdbs_top50/6xd4A.pdb
+2024-10-06 12:38:16,517 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:38:19,518 - INFO - Aligned 6xd4 with local_pdb
+2024-10-06 12:38:22,521 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:38:27,522 - DEBUG - Oriented the view
+2024-10-06 12:38:29,527 - DEBUG - Colored 6xd4 yellow
+2024-10-06 12:38:30,532 - DEBUG - Colored local_pdb green
+2024-10-06 12:38:31,536 - INFO - Saved alignment image to 6xd4_A_alignment.png
+2024-10-06 12:38:33,540 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:38:35,540 - DEBUG - Processing PDB ID: 4me2, Chain: A
+2024-10-06 12:38:35,540 - INFO - Fetched PDB ID: 4me2
+2024-10-06 12:38:38,545 - INFO - Saved CIF for PDB ID: 4me2 to 4me2.cif
+2024-10-06 12:38:43,547 - DEBUG - Removed solvent molecules
+2024-10-06 12:38:46,549 - DEBUG - Removed all chains except Chain A for PDB ID: 4me2
+2024-10-06 12:38:49,552 - INFO - Saved Chain A of PDB ID 4me2 to processed_pdbs_top50/4me2A.pdb
+2024-10-06 12:38:52,557 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:38:55,562 - INFO - Aligned 4me2 with local_pdb
+2024-10-06 12:38:58,564 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:39:03,567 - DEBUG - Oriented the view
+2024-10-06 12:39:05,568 - DEBUG - Colored 4me2 yellow
+2024-10-06 12:39:06,568 - DEBUG - Colored local_pdb green
+2024-10-06 12:39:07,574 - INFO - Saved alignment image to 4me2_A_alignment.png
+2024-10-06 12:39:09,578 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:39:11,581 - DEBUG - Processing PDB ID: 3l6a, Chain: A
+2024-10-06 12:39:11,581 - INFO - Fetched PDB ID: 3l6a
+2024-10-06 12:39:14,583 - INFO - Saved CIF for PDB ID: 3l6a to 3l6a.cif
+2024-10-06 12:39:19,583 - DEBUG - Removed solvent molecules
+2024-10-06 12:39:22,586 - DEBUG - Removed all chains except Chain A for PDB ID: 3l6a
+2024-10-06 12:39:25,588 - INFO - Saved Chain A of PDB ID 3l6a to processed_pdbs_top50/3l6aA.pdb
+2024-10-06 12:39:28,594 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:39:31,595 - INFO - Aligned 3l6a with local_pdb
+2024-10-06 12:39:34,600 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:39:39,600 - DEBUG - Oriented the view
+2024-10-06 12:39:41,603 - DEBUG - Colored 3l6a yellow
+2024-10-06 12:39:42,604 - DEBUG - Colored local_pdb green
+2024-10-06 12:39:43,607 - INFO - Saved alignment image to 3l6a_A_alignment.png
+2024-10-06 12:39:45,609 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:39:47,610 - DEBUG - Processing PDB ID: 8jj6, Chain: A
+2024-10-06 12:39:47,611 - INFO - Fetched PDB ID: 8jj6
+2024-10-06 12:39:50,612 - INFO - Saved CIF for PDB ID: 8jj6 to 8jj6.cif
+2024-10-06 12:39:55,617 - DEBUG - Removed solvent molecules
+2024-10-06 12:39:58,624 - DEBUG - Removed all chains except Chain A for PDB ID: 8jj6
+2024-10-06 12:40:01,636 - INFO - Saved Chain A of PDB ID 8jj6 to processed_pdbs_top50/8jj6A.pdb
+2024-10-06 12:40:04,647 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:40:07,655 - INFO - Aligned 8jj6 with local_pdb
+2024-10-06 12:40:10,664 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:40:15,675 - DEBUG - Oriented the view
+2024-10-06 12:40:17,682 - DEBUG - Colored 8jj6 yellow
+2024-10-06 12:40:18,684 - DEBUG - Colored local_pdb green
+2024-10-06 12:40:19,690 - INFO - Saved alignment image to 8jj6_A_alignment.png
+2024-10-06 12:40:21,696 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:40:23,700 - DEBUG - Processing PDB ID: 6gie, Chain: A
+2024-10-06 12:40:23,700 - INFO - Fetched PDB ID: 6gie
+2024-10-06 12:40:26,707 - INFO - Saved CIF for PDB ID: 6gie to 6gie.cif
+2024-10-06 12:40:31,711 - DEBUG - Removed solvent molecules
+2024-10-06 12:40:34,718 - DEBUG - Removed all chains except Chain A for PDB ID: 6gie
+2024-10-06 12:40:37,724 - INFO - Saved Chain A of PDB ID 6gie to processed_pdbs_top50/6gieA.pdb
+2024-10-06 12:40:40,729 - DEBUG - Loaded local PDB file: /Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb as 'local_pdb'
+2024-10-06 12:40:43,734 - INFO - Aligned 6gie with local_pdb
+2024-10-06 12:40:46,740 - DEBUG - Zoomed to the aligned structures
+2024-10-06 12:40:51,742 - DEBUG - Oriented the view
+2024-10-06 12:40:53,747 - DEBUG - Colored 6gie yellow
+2024-10-06 12:40:54,752 - DEBUG - Colored local_pdb green
+2024-10-06 12:40:55,754 - INFO - Saved alignment image to 6gie_A_alignment.png
+2024-10-06 12:40:57,756 - DEBUG - Deleted all objects from PyMOL
+2024-10-06 12:40:59,766 - DEBUG - Created directory: downloaded_pdbs_top50
+2024-10-06 12:40:59,768 - INFO - Moved 6sb5.cif to downloaded_pdbs_top50/6sb5.cif
+2024-10-06 12:40:59,768 - INFO - Moved 6sb4.cif to downloaded_pdbs_top50/6sb4.cif
+2024-10-06 12:40:59,769 - INFO - Moved 6sb1.cif to downloaded_pdbs_top50/6sb1.cif
+2024-10-06 12:40:59,769 - INFO - Moved 6u2j.cif to downloaded_pdbs_top50/6u2j.cif
+2024-10-06 12:40:59,770 - INFO - Moved 6u2k.cif to downloaded_pdbs_top50/6u2k.cif
+2024-10-06 12:40:59,770 - INFO - Moved 6sb3.cif to downloaded_pdbs_top50/6sb3.cif
+2024-10-06 12:40:59,770 - INFO - Moved 6u23.cif to downloaded_pdbs_top50/6u23.cif
+2024-10-06 12:40:59,770 - INFO - Moved 6u2w.cif to downloaded_pdbs_top50/6u2w.cif
+2024-10-06 12:40:59,771 - INFO - Moved 7nyd.cif to downloaded_pdbs_top50/7nyd.cif
+2024-10-06 12:40:59,771 - INFO - Moved 7nyc.cif to downloaded_pdbs_top50/7nyc.cif
+2024-10-06 12:40:59,771 - INFO - Moved 6h04.cif to downloaded_pdbs_top50/6h04.cif
+2024-10-06 12:40:59,772 - INFO - Moved 6dlw.cif to downloaded_pdbs_top50/6dlw.cif
+2024-10-06 12:40:59,772 - INFO - Moved 7pag.cif to downloaded_pdbs_top50/7pag.cif
+2024-10-06 12:40:59,772 - INFO - Moved 3nsj.cif to downloaded_pdbs_top50/3nsj.cif
+2024-10-06 12:40:59,772 - INFO - Moved 2qqh.cif to downloaded_pdbs_top50/2qqh.cif
+2024-10-06 12:40:59,773 - INFO - Moved 2rd7.cif to downloaded_pdbs_top50/2rd7.cif
+2024-10-06 12:40:59,773 - INFO - Moved 3ojy.cif to downloaded_pdbs_top50/3ojy.cif
+2024-10-06 12:40:59,774 - INFO - Moved 5j67.cif to downloaded_pdbs_top50/5j67.cif
+2024-10-06 12:40:59,774 - INFO - Moved 5j69.cif to downloaded_pdbs_top50/5j69.cif
+2024-10-06 12:40:59,775 - INFO - Moved 5j68.cif to downloaded_pdbs_top50/5j68.cif
+2024-10-06 12:40:59,776 - INFO - Moved 6fbm.cif to downloaded_pdbs_top50/6fbm.cif
+2024-10-06 12:40:59,776 - INFO - Moved 3t5o.cif to downloaded_pdbs_top50/3t5o.cif
+2024-10-06 12:40:59,778 - INFO - Moved 5ouq.cif to downloaded_pdbs_top50/5ouq.cif
+2024-10-06 12:40:59,778 - INFO - Moved 5oup.cif to downloaded_pdbs_top50/5oup.cif
+2024-10-06 12:40:59,779 - INFO - Moved 5own.cif to downloaded_pdbs_top50/5own.cif
+2024-10-06 12:40:59,780 - INFO - Moved 4e0s.cif to downloaded_pdbs_top50/4e0s.cif
+2024-10-06 12:40:59,781 - INFO - Moved 2qp2.cif to downloaded_pdbs_top50/2qp2.cif
+2024-10-06 12:40:59,782 - INFO - Moved 6cxo.cif to downloaded_pdbs_top50/6cxo.cif
+2024-10-06 12:40:59,783 - INFO - Moved 8b6u.cif to downloaded_pdbs_top50/8b6u.cif
+2024-10-06 12:40:59,783 - INFO - Moved 4a5w.cif to downloaded_pdbs_top50/4a5w.cif
+2024-10-06 12:40:59,784 - INFO - Moved 3kk7.cif to downloaded_pdbs_top50/3kk7.cif
+2024-10-06 12:40:59,785 - INFO - Moved 4oej.cif to downloaded_pdbs_top50/4oej.cif
+2024-10-06 12:40:59,785 - INFO - Moved 4ov8.cif to downloaded_pdbs_top50/4ov8.cif
+2024-10-06 12:40:59,786 - INFO - Moved 6r2q.cif to downloaded_pdbs_top50/6r2q.cif
+2024-10-06 12:40:59,786 - INFO - Moved 5ljm.cif to downloaded_pdbs_top50/5ljm.cif
+2024-10-06 12:40:59,787 - INFO - Moved 4leu.cif to downloaded_pdbs_top50/4leu.cif
+2024-10-06 12:40:59,787 - INFO - Moved 3v89.cif to downloaded_pdbs_top50/3v89.cif
+2024-10-06 12:40:59,788 - INFO - Moved 4wvm.cif to downloaded_pdbs_top50/4wvm.cif
+2024-10-06 12:40:59,788 - INFO - Moved 4cdb.cif to downloaded_pdbs_top50/4cdb.cif
+2024-10-06 12:40:59,789 - INFO - Moved 7zke.cif to downloaded_pdbs_top50/7zke.cif
+2024-10-06 12:40:59,789 - INFO - Moved 2grm.cif to downloaded_pdbs_top50/2grm.cif
+2024-10-06 12:40:59,790 - INFO - Moved 5tc1.cif to downloaded_pdbs_top50/5tc1.cif
+2024-10-06 12:40:59,790 - INFO - Moved 8dml.cif to downloaded_pdbs_top50/8dml.cif
+2024-10-06 12:40:59,791 - INFO - Moved 5fq6.cif to downloaded_pdbs_top50/5fq6.cif
+2024-10-06 12:40:59,792 - INFO - Moved 7jw3.cif to downloaded_pdbs_top50/7jw3.cif
+2024-10-06 12:40:59,794 - INFO - Moved 6xd4.cif to downloaded_pdbs_top50/6xd4.cif
+2024-10-06 12:40:59,795 - INFO - Moved 4me2.cif to downloaded_pdbs_top50/4me2.cif
+2024-10-06 12:40:59,796 - INFO - Moved 3l6a.cif to downloaded_pdbs_top50/3l6a.cif
+2024-10-06 12:40:59,796 - INFO - Moved 8jj6.cif to downloaded_pdbs_top50/8jj6.cif
+2024-10-06 12:40:59,797 - INFO - Moved 6gie.cif to downloaded_pdbs_top50/6gie.cif
+2024-10-06 12:40:59,797 - DEBUG - Created directory: alignment_images_top50
+2024-10-06 12:40:59,799 - INFO - Moved 6sb5_D_alignment.png to alignment_images_top50/6sb5_D_alignment.png
+2024-10-06 12:40:59,800 - INFO - Moved 7nyd_D_alignment.png to alignment_images_top50/7nyd_D_alignment.png
+2024-10-06 12:40:59,800 - INFO - Moved 5ouq_D_alignment.png to alignment_images_top50/5ouq_D_alignment.png
+2024-10-06 12:40:59,800 - INFO - Moved 5j67_C_alignment.png to alignment_images_top50/5j67_C_alignment.png
+2024-10-06 12:40:59,801 - INFO - Moved 2grm_A_alignment.png to alignment_images_top50/2grm_A_alignment.png
+2024-10-06 12:40:59,807 - INFO - Moved 2rd7_A_alignment.png to alignment_images_top50/2rd7_A_alignment.png
+2024-10-06 12:40:59,808 - INFO - Moved 6cxo_A_alignment.png to alignment_images_top50/6cxo_A_alignment.png
+2024-10-06 12:40:59,809 - INFO - Moved 6dlw_M_alignment.png to alignment_images_top50/6dlw_M_alignment.png
+2024-10-06 12:40:59,809 - INFO - Moved 7nyc_D_alignment.png to alignment_images_top50/7nyc_D_alignment.png
+2024-10-06 12:40:59,809 - INFO - Moved 4oej_A_alignment.png to alignment_images_top50/4oej_A_alignment.png
+2024-10-06 12:40:59,810 - INFO - Moved 3l6a_A_alignment.png to alignment_images_top50/3l6a_A_alignment.png
+2024-10-06 12:40:59,811 - INFO - Moved 6u2j_M_alignment.png to alignment_images_top50/6u2j_M_alignment.png
+2024-10-06 12:40:59,811 - INFO - Moved 4a5w_B_alignment.png to alignment_images_top50/4a5w_B_alignment.png
+2024-10-06 12:40:59,812 - INFO - Moved 6sb4_C_alignment.png to alignment_images_top50/6sb4_C_alignment.png
+2024-10-06 12:40:59,812 - INFO - Moved 3nsj_A_alignment.png to alignment_images_top50/3nsj_A_alignment.png
+2024-10-06 12:40:59,813 - INFO - Moved 6u23_A_alignment.png to alignment_images_top50/6u23_A_alignment.png
+2024-10-06 12:40:59,813 - INFO - Moved 6sb1_A_alignment.png to alignment_images_top50/6sb1_A_alignment.png
+2024-10-06 12:40:59,814 - INFO - Moved 5oup_A_alignment.png to alignment_images_top50/5oup_A_alignment.png
+2024-10-06 12:40:59,814 - INFO - Moved 5fq6_M_alignment.png to alignment_images_top50/5fq6_M_alignment.png
+2024-10-06 12:40:59,815 - INFO - Moved 4e0s_B_alignment.png to alignment_images_top50/4e0s_B_alignment.png
+2024-10-06 12:40:59,816 - INFO - Moved 6h04_W_alignment.png to alignment_images_top50/6h04_W_alignment.png
+2024-10-06 12:40:59,816 - INFO - Moved 3t5o_A_alignment.png to alignment_images_top50/3t5o_A_alignment.png
+2024-10-06 12:40:59,817 - INFO - Moved 6xd4_A_alignment.png to alignment_images_top50/6xd4_A_alignment.png
+2024-10-06 12:40:59,817 - INFO - Moved 3kk7_A_alignment.png to alignment_images_top50/3kk7_A_alignment.png
+2024-10-06 12:40:59,818 - INFO - Moved 5j69_B_alignment.png to alignment_images_top50/5j69_B_alignment.png
+2024-10-06 12:40:59,818 - INFO - Moved 2qp2_A_alignment.png to alignment_images_top50/2qp2_A_alignment.png
+2024-10-06 12:40:59,819 - INFO - Moved 7jw3_C_alignment.png to alignment_images_top50/7jw3_C_alignment.png
+2024-10-06 12:40:59,819 - INFO - Moved 6gie_A_alignment.png to alignment_images_top50/6gie_A_alignment.png
+2024-10-06 12:40:59,820 - INFO - Moved 3ojy_A_alignment.png to alignment_images_top50/3ojy_A_alignment.png
+2024-10-06 12:40:59,821 - INFO - Moved 5own_B_alignment.png to alignment_images_top50/5own_B_alignment.png
+2024-10-06 12:40:59,821 - INFO - Moved 4ov8_A_alignment.png to alignment_images_top50/4ov8_A_alignment.png
+2024-10-06 12:40:59,822 - INFO - Moved 8dml_B_alignment.png to alignment_images_top50/8dml_B_alignment.png
+2024-10-06 12:40:59,822 - INFO - Moved 6fbm_A_alignment.png to alignment_images_top50/6fbm_A_alignment.png
+2024-10-06 12:40:59,823 - INFO - Moved 7zke_E_alignment.png to alignment_images_top50/7zke_E_alignment.png
+2024-10-06 12:40:59,823 - INFO - Moved 6u2k_B_alignment.png to alignment_images_top50/6u2k_B_alignment.png
+2024-10-06 12:40:59,824 - INFO - Moved 6sb3_A_alignment.png to alignment_images_top50/6sb3_A_alignment.png
+2024-10-06 12:40:59,824 - INFO - Moved 7pag_A_alignment.png to alignment_images_top50/7pag_A_alignment.png
+2024-10-06 12:40:59,825 - INFO - Moved 4leu_A_alignment.png to alignment_images_top50/4leu_A_alignment.png
+2024-10-06 12:40:59,825 - INFO - Moved 4cdb_A_alignment.png to alignment_images_top50/4cdb_A_alignment.png
+2024-10-06 12:40:59,826 - INFO - Moved 5j68_A_alignment.png to alignment_images_top50/5j68_A_alignment.png
+2024-10-06 12:40:59,826 - INFO - Moved 5ljm_A_alignment.png to alignment_images_top50/5ljm_A_alignment.png
+2024-10-06 12:40:59,827 - INFO - Moved 4wvm_B_alignment.png to alignment_images_top50/4wvm_B_alignment.png
+2024-10-06 12:40:59,827 - INFO - Moved 8jj6_A_alignment.png to alignment_images_top50/8jj6_A_alignment.png
+2024-10-06 12:40:59,828 - INFO - Moved 4me2_A_alignment.png to alignment_images_top50/4me2_A_alignment.png
+2024-10-06 12:40:59,828 - INFO - Moved 3v89_A_alignment.png to alignment_images_top50/3v89_A_alignment.png
+2024-10-06 12:40:59,829 - INFO - Moved 6r2q_B_alignment.png to alignment_images_top50/6r2q_B_alignment.png
+2024-10-06 12:40:59,830 - INFO - Moved 2qqh_A_alignment.png to alignment_images_top50/2qqh_A_alignment.png
+2024-10-06 12:40:59,830 - INFO - Moved 8b6u_A_alignment.png to alignment_images_top50/8b6u_A_alignment.png
+2024-10-06 12:40:59,831 - INFO - Moved 6u2w_B_alignment.png to alignment_images_top50/6u2w_B_alignment.png
+2024-10-06 12:40:59,866 - INFO - Moved 5tc1_M_alignment.png to alignment_images_top50/5tc1_M_alignment.png
+2024-10-06 12:40:59,867 - INFO - PyMOL session terminated successfully.

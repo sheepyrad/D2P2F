@@ -65,7 +65,8 @@ def initialize_pymol():
 # Step 3: Fetch, Process, and Save PDB Files Sequentially
 def process_pdb_files(pm, pdb_chain_dict, output_directory):
     """
-    Fetches PDB structures, extracts specified chains, and saves them as separate PDB files.
+    Fetches PDB structures, extracts specified chains, saves them as separate PDB files,
+    aligns them with a local PDB file, and saves PNG images of the alignment.
     
     Args:
         pm (pymolPy3.pymolPy3): The PyMOL interface instance.
@@ -86,7 +87,7 @@ def process_pdb_files(pm, pdb_chain_dict, output_directory):
             logging.info(f"Fetched PDB ID: {pdb_id}")
             
             # Introduce a short delay to ensure fetching is complete
-            time.sleep(5)
+            time.sleep(3)
             
             # Save the fetched CIF to root directory
             cif_output = f"{pdb_id}.cif"
@@ -97,13 +98,21 @@ def process_pdb_files(pm, pdb_chain_dict, output_directory):
             # Introduce a short delay to ensure saving is complete
             time.sleep(5)
             
+            # Remove all solvent molecules
+            remove_solvent_command = f"remove (all and not polymer)"
+            pm(remove_solvent_command)
+            logging.debug("Removed solvent molecules")
+
+            # Introduce a short delay to ensure solvent removal is complete
+            time.sleep(3)
+
             # Remove all chains except the specified one
             remove_command = f"remove not chain {chain_id}"
             pm(remove_command)
             logging.debug(f"Removed all chains except Chain {chain_id} for PDB ID: {pdb_id}")
             
             # Introduce a short delay to ensure removal is complete
-            time.sleep(5)
+            time.sleep(3)
             
             # Define the output PDB filename
             output_pdb = f"{pdb_id}{chain_id}.pdb"
@@ -115,15 +124,71 @@ def process_pdb_files(pm, pdb_chain_dict, output_directory):
             logging.info(f"Saved Chain {chain_id} of PDB ID {pdb_id} to {output_path}")
             
             # Introduce a short delay to ensure saving is complete
-            time.sleep(5)
+            time.sleep(3)
             
-            # Clear the specific PDB object to free memory
-            clear_command = f"delete {pdb_id}"
-            pm(clear_command)
-            logging.debug(f"Deleted PDB object {pdb_id} from PyMOL")
+            # Load the local PDB file
+            local_pdb_path = "/Users/conrad/Desktop/Bioinformatics/Year_3/Sem_1/BIOF3005/Block2_Ni/HW/D2P2F/8a1da/8a1da.pdb"
+            load_local_pdb_command = f"load {local_pdb_path}, local_pdb"
+            pm(load_local_pdb_command)
+            logging.debug(f"Loaded local PDB file: {local_pdb_path} as 'local_pdb'")
+            
+            # Introduce a short delay to ensure loading is complete
+            time.sleep(3)
+            
+            # Align the fetched chain with the local PDB
+            align_command = f"align {pdb_id}, local_pdb"
+            pm(align_command)
+            logging.info(f"Aligned {pdb_id} with local_pdb")
+            
+            # Introduce a short delay to ensure alignment is complete
+            time.sleep(3)
+            
+            # Zoom to the aligned structures
+            zoom_command = f"zoom"
+            pm(zoom_command)
+            logging.debug("Zoomed to the aligned structures")
+
+            # Introduce a short delay to ensure zoom is complete
+            time.sleep(5)
+            # Orient the view for better visualization
+            orient_command = f"orient"
+            pm(orient_command)
+            logging.debug("Oriented the view")
+
+            # Introduce a short delay to ensure orientation is complete
+            time.sleep(2)
+
+            # Color the aligned structures
+            color_command = f"color cyan, {pdb_id}"
+            pm(color_command)
+            logging.debug(f"Colored {pdb_id} yellow")
+
+            # Introduce a short delay to ensure coloring is complete
+            time.sleep(1)
+
+            color_command = f"color red, local_pdb"
+            pm(color_command)
+            logging.debug("Colored local_pdb green")
+
+            # Introduce a short delay to ensure coloring is complete
+            time.sleep(1)
+
+            # Save a PNG image of the alignment
+            png_filename = f"{pdb_id}_{chain_id}_alignment.png"
+            png_command = f"png {png_filename}, dpi=300"
+            pm(png_command)
+            logging.info(f"Saved alignment image to {png_filename}")
+            
+            # Introduce a short delay to ensure PNG is saved
+            time.sleep(2)
+            
+            # Clear all objects in PyMOL to prepare for the next iteration
+            delete_all_command = f"delete all"
+            pm(delete_all_command)
+            logging.debug("Deleted all objects from PyMOL")
             
             # Introduce a short delay to ensure deletion is complete
-            time.sleep(5)
+            time.sleep(2)
         
         except Exception as e:
             logging.error(f"Error processing PDB ID {pdb_id}: {e}")
@@ -155,12 +220,35 @@ def copy_cif_files(destination_directory, pdb_ids):
         else:
             logging.warning(f"CIF file for PDB ID {pdb_id} not found in root directory.")
 
-# Step 5: Main Workflow
+# Step 5: Copy PNG Files to 'alignment_images' Directory
+def copy_png_files(destination_directory):
+    """
+    Copies all PNG files from the root directory to the specified directory.
+    
+    Args:
+        destination_directory (str): Directory to copy PNG files to.
+    """
+    if not os.path.exists(destination_directory):
+        os.makedirs(destination_directory)
+        logging.debug(f"Created directory: {destination_directory}")
+    
+    png_files = [f for f in os.listdir('.') if f.endswith('.png')]
+    
+    for png_file in png_files:
+        source_png = png_file
+        destination_png = os.path.join(destination_directory, png_file)
+        try:
+            shutil.move(source_png, destination_png)
+            logging.info(f"Moved {source_png} to {destination_png}")
+        except Exception as e:
+            logging.error(f"Error moving {source_png} to {destination_png}: {e}")
+
+# Step 6: Main Workflow
 def main():
     dali_result_path = '8a1dA.txt'  # Path to your DALI result file (remember to change the file when using this script)
     output_directory = 'processed_pdbs_top50'  # Directory to save the processed PDB files
     downloaded_pdbs_directory = 'downloaded_pdbs_top50'  # Directory to save the downloaded CIF files
-    source_cif_directory = '.'  # Directory where original CIF files are located (root directory)
+    alignment_images_directory = 'alignment_images_top50'  # Directory to save the alignment images
     
     # Step 1: Extract unique PDB IDs and chains (limit to 50)
     pdb_chain_dict = extract_unique_pdb_ids_and_chains(dali_result_path, limit=50)
@@ -178,13 +266,13 @@ def main():
     # Step 4: Copy CIF Files to 'downloaded_pdbs' and Delete Originals
     copy_cif_files(downloaded_pdbs_directory, list(pdb_chain_dict.keys()))
     
+    # Step 5: Copy PNG Files to 'alignment_images' Directory
+    copy_png_files(alignment_images_directory)
+    
     # Finalize PyMOL
     try:
-        quit_command = f"quit"
-        pm(quit_command) 
+        pm('quit')  # Terminate PyMOL session
         logging.info("PyMOL session terminated successfully.")
-    except AttributeError:
-        logging.error("Error terminating PyMOL session: 'pymolPy3' object has no attribute 'quit'")
     except Exception as e:
         logging.error(f"Error terminating PyMOL session: {e}")
 
