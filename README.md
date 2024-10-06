@@ -251,4 +251,4 @@ Before running the script, you need to configure several variables in the script
 
 ## Contact
 
-For any questions, suggestions, or feedback, please open an issue on the GitHub repository, contact XXX@connect.hku.hk. Thank you very much!
+For any questions, suggestions, or feedback, please contact XXX@connect.hku.hk. Thank you very much!
