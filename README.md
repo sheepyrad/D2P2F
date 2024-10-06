@@ -13,6 +13,7 @@
   - [Configuring the Script](#configuring-the-script)
   - [Running the Script](#running-the-script)
   - [Creating Your Structural Phylogenetic Tree](#creating-your-structural-phylogenetic-tree)
+  - [Reproducing the Tree in FoldMason Using JSON Files](#reproducing-the-tree-in-FoldMason-using-json-files)
 - [Contact](#contact)
 
 ## Introduction
@@ -20,7 +21,7 @@
 D2P2F is a semi-automated script designed to streamline the processing of DALI result files into PDBs that can be uploaded to FoldManson to create structural phylogenetic trees. It extracts unique Protein Data Bank (PDB) IDs and their corresponding chains, fetches the associated structures using PyMOL, aligns them with a local PDB file, and organizes the data into dedicated folders. Users can then upload the processed PDB files to FoldManson or other tools to build structural phylogenetic trees.
 
 - DALI: [http://ekhidna2.biocenter.helsinki.fi/dali/](http://ekhidna2.biocenter.helsinki.fi/dali/)
-- FoldManson: [https://search.foldseek.com/foldmansion](https://search.foldseek.com/foldmansion)
+- FoldManson: [https://search.foldseek.com/FoldMason](https://search.foldseek.com/FoldMason)
 
 ## Features
 
@@ -220,13 +221,13 @@ Before running the script, you need to configure several variables in the script
     - Step 5: Move PNG images to the alignment_images directory.
     - Finalize: Terminate the PyMOL session.
 
-    **Note**: The script includes delays (`time.sleep()`) to ensure that each PyMOL command completes before the next command is issued. These delays may make the script run longer but help avoid errors due to command overlap, if your computer is really slow, you may need to adjust the number to avoid errors.
+    **Note**: The script includes delays (`time.sleep()`) to ensure that each PyMOL command completes before the next command is issued. These delays may make the script run longer but help avoid errors due to command overlap. If your computer is really slow, you may need to adjust the number to avoid errors.
 
 4. **Check Output Directories**
 
     After the script completes, you can find the processed files in the specified directories:
 
-    - **Processed PDB Files**: Located in the `processed_pdbs_top50` directory (or your specified output directory). These are the extracted chains ready for further analysis or uploading to FoldMansion.
+    - **Processed PDB Files**: Located in the `processed_pdbs_top50` directory (or your specified output directory). These are the extracted chains ready for further analysis or uploading to FoldMason.
     - **Downloaded CIF Files**: Located in the `downloaded_pdbs_top50` directory.
     - **Alignment Images**: Located in the `alignment_images_top50` directory. These are PNG images of the aligned structures.
 
@@ -237,7 +238,7 @@ Before running the script, you need to configure several variables in the script
 ### Creating Your Structural Phylogenetic Tree
 
 1. **Upload PDB Files to FoldManson**
-    - Navigate to FoldMansion.
+    - Navigate to [FoldMason] (https://search.foldseek.com/foldmason).
     - Upload the PDB files from the `processed_pdbs_top50` directory.
     - Follow the FoldManson instructions to build your structural phylogenetic tree.
 
@@ -247,7 +248,23 @@ Before running the script, you need to configure several variables in the script
 
 3. **Happy Tree Building!**
     - Explore the relationships revealed by your structural phylogenetic tree.
-    - Incorporate your findings into your research or presentations.
+    - Incorporate your findings into your research or presentations!
+
+### Reproducing the Tree in FoldMason Using JSON Files
+
+If you'd like to reproduce my structural phylogenetic tree directly in FoldMason, you can use the JSON files stored in the `FoldMason_files` folder. These files contain all the necessary data to recreate the tree without needing to re-upload or process the PDB files.
+
+1. **Navigate to FoldMason**
+   - Go to [FoldMason](https://search.foldseek.com/FoldMason).
+
+2. **Upload the JSON File**
+   - In FoldMason, choose the option to upload a pre-configured tree.
+   - Select the relevant JSON file from the `foldmason_files` folder.
+
+3. **Visualize and Explore**
+   - Once uploaded, FoldMason will visualize the structural phylogenetic tree according to the data in the JSON file.
+   - You can explore and analyze the relationships shown in the tree without repeating the alignment or processing steps.
+   - This feature provides a quick way to share or reproduce your structural analysis directly in FoldMason.
 
 ## Contact
 
